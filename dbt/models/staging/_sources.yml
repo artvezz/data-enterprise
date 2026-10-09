@@ -1,0 +1,156 @@
+version: 2
+
+sources:
+  - name: raw
+    description: >
+      Camada raw. Tabelas alimentadas pelos CSVs de data/raw pelo pipeline de
+      ingestao. Nao escrever logica de negocio aqui: e sempre o dado bruto.
+    schema: raw
+    loader: ingest_supabase.py
+    loaded_at_field: ingestion_timestamp
+
+    tables:
+      # ------------------------------------------------- comum
+      - name: pedidos_vendas
+        description: "Pedidos de venda do ERP (dominio vendas)."
+        columns:
+          - name: pedido_id
+            description: "PK do pedido no ERP."
+            data_tests: [unique, not_null]
+          - name: cliente_id
+            description: "FK para dim_cliente."
+            data_tests: [not_null]
+          - name: produto_id
+            description: "FK para dim_produto."
+            data_tests: [not_null]
+          - name: vendedor_id
+            description: "FK para vendedores."
+          - name: valor_liquido
+            description: "Valor do pedido ja com desconto."
+            data_tests: [not_null]
+
+      - name: vendedores
+        description: "Cadastro de vendedores."
+        columns:
+          - name: vendedor_id
+            data_tests: [unique, not_null]
+
+      - name: metas_vendas
+        description: "Metas mensais por vendedor."
+        columns:
+          - name: vendedor_id
+            data_tests: [not_null]
+          - name: competencia
+            data_tests: [not_null]
+
+      - name: dim_cliente
+        description: "Cadastro master de clientes."
+        columns:
+          - name: cliente_id
+            data_tests: [unique, not_null]
+
+      - name: dim_produto
+        description: "Cadastro master de produtos."
+        columns:
+          - name: produto_id
+            data_tests: [unique, not_null]
+
+      - name: dim_calendario
+        description: "Calendario corporativo util."
+        columns:
+          - name: data
+            data_tests: [unique, not_null]
+
+      - name: dim_regiao
+        description: "Hierarquia regiao > uf > cidade."
+
+      # ------------------------------------------------- rh
+      - name: funcionarios
+        description: "Cadastro de colaboradores (folha)."
+        columns:
+          - name: colaborador_id
+            data_tests: [unique, not_null]
+
+      - name: cargos
+        description: "Catalogo de cargos e faixas salariais."
+        columns:
+          - name: cargo_id
+            data_tests: [unique, not_null]
+
+      - name: folha_ponto
+        description: "Batimentos diarios do ponto."
+        columns:
+          - name: ponto_id
+            data_tests: [unique, not_null]
+          - name: colaborador_id
+            data_tests: [not_null]
+
+      - name: remuneracao
+        description: "Folha, encargos e beneficios por competencia e area."
+        columns:
+          - name: competencia
+            data_tests: [not_null]
+          - name: area
+            data_tests: [not_null]
+
+      - name: ferias
+        description: "Ferias e licencas."
+        columns:
+          - name: ferias_id
+            data_tests: [unique, not_null]
+
+      # ------------------------------------------------- financeiro
+      - name: lancamentos_contabeis
+        description: "Ledger contabil (razao)."
+        columns:
+          - name: lancamento_id
+            data_tests: [unique, not_null]
+
+      - name: contas_pagar
+        description: "Titulos a pagar."
+        columns:
+          - name: conta_pagar_id
+            data_tests: [unique, not_null]
+
+      - name: contas_receber
+        description: "Titulos a receber."
+        columns:
+          - name: conta_receber_id
+            data_tests: [unique, not_null]
+
+      - name: orcamento
+        description: "Orcamento aprovado por conta e competencia."
+
+      # ------------------------------------------------- comercial
+      - name: oportunidades
+        description: "Pipeline de oportunidades do CRM."
+        columns:
+          - name: oportunidade_id
+            data_tests: [unique, not_null]
+          - name: cliente_id
+            data_tests: [not_null]
+
+      - name: leads
+        description: "Atividades de prospeccao registradas no CRM."
+
+      # ------------------------------------------------- marketing
+      - name: campanhas
+        description: "Campanhas de marketing pagas."
+        columns:
+          - name: campanha_id
+            data_tests: [unique, not_null]
+
+      - name: atuacoes_marketing
+        description: "Metricas diarias de trafego por canal."
+
+      # ------------------------------------------------- logistica
+      - name: notas_fiscais_transporte
+        description: "NF-e e status de entrega do TMS."
+        columns:
+          - name: nota_id
+            data_tests: [unique, not_null]
+          - name: pedido_id
+            description: "FK para pedidos_vendas (cobertura parcial)."
+
+      - name: estoque
+        description: "Posicao de estoque por centro e produto."

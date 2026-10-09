@@ -1,0 +1,16 @@
+# Ambiente de desenvolvimento do projeto.
+# Python 3.14.
+#
+# Motivo das versoes fixadas: o Windows bloqueia via AppLocker/WDAC a DLL de
+# extensao dos binarios mais novos de pandas. pandas 3.0.6 e numpy 2.5.3 falham com
+# "DLL load failed while importing algos". As versoes abaixo funcionam.
+#
+#   python -m venv .venv
+#   .venv\Scripts\activate
+#   pip install -r requirements.txt
+
+pandas==3.0.3
+numpy==2.4.6
+matplotlib==3.11.2
+seaborn==0.13.2
+ipykernel==7.4.0

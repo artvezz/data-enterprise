@@ -1,0 +1,170 @@
+version: 2
+
+models:
+  # ------------------------------------------------- comum
+  - name: stg_clientes
+    description: "Cadastro master de clientes, normalizado (maiusculas, tipos, flag de ativo)."
+    columns:
+      - name: cliente_id
+        data_tests: [unique, not_null]
+      - name: segmento
+        description: "Segmento comercial do cliente."
+      - name: canal
+        description: "Canal de aquisicao do cliente."
+
+  - name: stg_produtos
+    description: "Cadastro master de produtos com preco de lista."
+    columns:
+      - name: produto_id
+        data_tests: [unique, not_null]
+      - name: categoria
+        description: "Categoria usada nos marts de produto."
+
+  - name: stg_calendario
+    description: "Calendario corporativo com flag de dia util e competencia."
+    columns:
+      - name: data
+        data_tests: [unique, not_null]
+
+  - name: stg_regiao
+    description: "Hierarquia regiao > uf > cidade. Usada para enriquecer receita por UF."
+
+  # ------------------------------------------------- vendas
+  - name: stg_pedidos_vendas
+    description: >
+      Pedidos do ERP com tipos corrigidos, deduplicados pela ingestao mais recente e
+      flags de negocio: pedido_valido (nao cancelado), faturado e atraso de entrega.
+    columns:
+      - name: pedido_id
+        data_tests: [unique, not_null]
+      - name: faturado
+        description: "true quando status esta em APROVADO/EM SEPARACAO/EM TRANSPORTE/ENTREGUE."
+      - name: pedido_valido
+        description: "false apenas para CANCELADO; filtra o mart de fatos."
+      - name: valor_liquido
+        data_tests: [not_null]
+
+  - name: stg_vendedores
+    description: "Cadastro de vendedores com regiao e flag de ativo."
+    columns:
+      - name: vendedor_id
+        data_tests: [unique, not_null]
+
+  - name: stg_metas_vendas
+    description: "Metas mensais por vendedor, com competencia tipada como date."
+    columns:
+      - name: vendedor_id
+        data_tests: [not_null]
+      - name: competencia
+        data_tests: [not_null]
+
+  # ------------------------------------------------- financeiro
+  - name: stg_contas_receber
+    description: >
+      Titulos a receber com aging calculado contra current_date e flag de vencido.
+      fonte do mart financeiro de carteira.
+    columns:
+      - name: conta_receber_id
+        data_tests: [unique, not_null]
+      - name: faixa_aging
+        description: "A VENCER, VENCIDO 1-30/31-60/61-90/90+ ou RECEBIDO."
+
+  - name: stg_contas_pagar
+    description: "Titulos a pagar com aging e flag de atraso."
+    columns:
+      - name: conta_pagar_id
+        data_tests: [unique, not_null]
+
+  - name: stg_lancamentos_contabeis
+    description: >
+      Ledger contabil. Regime de competencia e a data de negocio; data_lancamento e o
+      contabilizado. Inclui valor_liquido e grupo de conta por prefixo.
+    columns:
+      - name: lancamento_id
+        data_tests: [unique, not_null]
+
+  - name: stg_orcamento
+    description: "Orcamento aprovado por conta e competencia (ano+mes -> date)."
+
+  # ------------------------------------------------- rh
+  - name: stg_colaboradores
+    description: >
+      Cadastro de colaboradores, deduplicado por ingestion_timestamp. Gera as flags
+      ativo, is_clt, is_estagiario, foi_desligado e tempo de empresa em dias.
+      DADO SENSIVEL: nome e salario ficam apenas no staging.
+    columns:
+      - name: colaborador_id
+        data_tests: [unique, not_null]
+      - name: salario_bruto
+        description: "Sensivel. Nao expor em mart aberto."
+
+  - name: stg_cargos
+    description: "Catalogo de cargos com faixas salariais."
+    columns:
+      - name: cargo_id
+        data_tests: [unique, not_null]
+
+  - name: stg_ponto
+    description: "Batimentos diarios de ponto com flags de falta, atraso e remoto."
+    columns:
+      - name: ponto_id
+        data_tests: [unique, not_null]
+
+  - name: stg_custos_rh
+    description: >
+      Folha, encargos e beneficios por competencia e area. Tras pct_encargos,
+      pct_beneficios e custo_total_consistente (soma dos componentes bate com custo_total).
+    columns:
+      - name: competencia
+        data_tests: [not_null]
+      - name: area
+        data_tests: [not_null]
+      - name: custo_total_consistente
+        description: "Deve ser sempre true. false indica dado corrompido na fonte."
+
+  - name: stg_ferias
+    description: "Ferias e licencas com divergencia de calculo de dias."
+    columns:
+      - name: ferias_id
+        data_tests: [unique, not_null]
+
+  # ------------------------------------------------- comercial
+  - name: stg_oportunidades
+    description: >
+      Pipeline de oportunidades do CRM com flags ganha/perdida/encerrada e
+      competencia de criacao.
+    columns:
+      - name: oportunidade_id
+        data_tests: [unique, not_null]
+      - name: probabilidade
+        description: "0 a 1."
+        data_tests: [not_null]
+
+  - name: stg_leads
+    description: "Atividades de prospeccao registradas no CRM por vendedor."
+
+  # ------------------------------------------------- marketing
+  - name: stg_campanhas
+    description: "Campanhas pagas com ROI, taxa de conversao e custo por lead derivados."
+    columns:
+      - name: campanha_id
+        data_tests: [unique, not_null]
+      - name: roi
+        description: "receita_atribuida / investimento."
+
+  - name: stg_atuacoes_marketing
+    description: "Metricas diarias de trafego por canal com custo estimado do dia."
+
+  # ------------------------------------------------- logistica
+  - name: stg_entregas
+    description: >
+      NF-e do TMS com previsao derivada (emissao + prazo), flags de entregue/no prazo
+      e atraso em dias.
+    columns:
+      - name: nota_id
+        data_tests: [unique, not_null]
+      - name: pedido_id
+        description: "Cobertura parcial: nem todo pedido tem NF no TMS."
+
+  - name: stg_estoque
+    description: "Posicao de estoque por centro/produto com flag abaixo_minimo."

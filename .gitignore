@@ -1,0 +1,42 @@
+*.pyc
+__pycache__/
+.venv/
+.venv-*/
+venv/
+
+# credenciais
+.env
+
+# dbt
+target/
+dbt_packages/
+logs/
+dbt.log
+dbt/.user.yml
+
+# airflow
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+
+# dados gerados localmente
+data/landing/*
+data/staging/*
+data/gold/*
+!data/**/.gitkeep
+
+# relatorios de alerta de falha gerados pelo Airflow
+data/alerts/
+
+# sistema
+.DS_Store
+Thumbs.db
+.idea/
+
+# vscode: contem caminho absoluto do interpretador, so funciona na maquina local.
+# o extensions.json e portavel e continua versionado.
+.vscode/settings.json
+.vscode/*.code-workspace
+!.vscode/extensions.json
+# estado local do bootstrap do metabase
+scripts/.metabase_session.json

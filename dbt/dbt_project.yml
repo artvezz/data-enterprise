@@ -1,0 +1,82 @@
+name: "data_enterprise"
+version: "1.0.0"
+
+config-version: 2
+
+profile: "data_enterprise"
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+snapshot-paths: ["snapshots"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+
+target-path: "target"
+clean-targets: ["target", "dbt_packages", "logs"]
+
+require-dbt-version: [">=1.7.0", "<2.0.0"]
+
+models:
+  data_enterprise:
+    +materialized: view
+    +on_schema_change: append_new_columns
+
+    staging:
+      +schema: staging
+      +materialized: view
+      +tags: ["staging"]
+      comum:
+        +tags: ["comum", "staging"]
+      vendas:
+        +tags: ["vendas", "staging"]
+      financeiro:
+        +tags: ["financeiro", "staging"]
+      rh:
+        +tags: ["rh", "staging"]
+      comercial:
+        +tags: ["comercial", "staging"]
+      marketing:
+        +tags: ["marketing", "staging"]
+      logistica:
+        +tags: ["logistica", "staging"]
+
+    marts:
+      +materialized: table
+      +tags: ["mart"]
+      vendas:
+        +schema: mart_vendas
+        +tags: ["vendas", "mart"]
+      financeiro:
+        +schema: mart_financeiro
+        +tags: ["financeiro", "mart"]
+      rh:
+        +schema: mart_rh
+        +tags: ["rh", "mart"]
+      comercial:
+        +schema: mart_comercial
+        +tags: ["comercial", "mart"]
+      marketing:
+        +schema: mart_marketing
+        +tags: ["marketing", "mart"]
+      logistica:
+        +schema: mart_logistica
+        +tags: ["logistica", "mart"]
+      bi:
+        +schema: mart_bi
+        +tags: ["bi", "mart"]
+
+snapshots:
+  data_enterprise:
+    +schema: snapshots
+    +tags: ["snapshot"]
+
+data_tests:
+  data_enterprise:
+    +store_failures: true
+    +schema: qualidade
+
+vars:
+  start_date: "2025-04-01"
+  data_fim: "2026-09-30"
+  moeda: "BRL"

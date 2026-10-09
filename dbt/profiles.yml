@@ -1,0 +1,13 @@
+data_enterprise:
+  target: supabase
+  outputs:
+    supabase:
+      type: postgres
+      host: "{{ env_var('DBT_SUPABASE_HOST', 'aws-0-us-west-2.pooler.supabase.com') }}"
+      port: "{{ env_var('DBT_SUPABASE_PORT', '6543') | int }}"
+      user: "{{ env_var('DBT_SUPABASE_USER', 'postgres.qkqwqvwloowvrexuzama') }}"
+      password: "{{ env_var('DBT_SUPABASE_PASSWORD') }}"
+      dbname: "{{ env_var('DBT_SUPABASE_DB', 'postgres') }}"
+      schema: public
+      threads: 4
+      sslmode: require

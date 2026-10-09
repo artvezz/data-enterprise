@@ -1,0 +1,13 @@
+produto_id,descricao,categoria,preco_lista,ativo
+PRD-1001,Notebook Pro 14,Hardware,6890.00,S
+PRD-1002,Notebook Air 13,Hardware,4290.00,N
+PRD-1003,Monitor 27 4K,Hardware,2190.00,S
+PRD-1004,Teclado Mecanico,Periferico,749.00,S
+PRD-1005,Mouse Vertical,Periferico,289.00,S
+PRD-1006,Headset Noise Cancel,Periferico,1190.00,S
+PRD-1007,Licenca Software Pro,Software,899.00,S
+PRD-1008,Licenca Suite Analytics,Software,2490.00,S
+PRD-1009,Assinamento Cloud Mensal,Servico,349.00,S
+PRD-1010,Suporte Premium 24/7,Servico,599.00,N
+PRD-1011,Impressora LaserCorp,Hardware,1890.00,S
+PRD-1012,Rack de Rede 12U,Infra,4590.00,S

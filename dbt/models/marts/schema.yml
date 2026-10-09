@@ -1,0 +1,125 @@
+version: 2
+
+models:
+  # ------------------------------------------------- vendas
+  - name: fatos_pedidos
+    description: >
+      Granularidade: um pedido. Junta pedidos x cliente x produto x vendedor ja filtrada
+      por pedido_valido. Base de todas as analises de venda.
+    columns:
+      - name: pedido_id
+        data_tests: [unique, not_null]
+      - name: valor_liquido
+        data_tests: [not_null]
+
+  - name: vendas_mensais
+    description: "KPI mensal de receita, pedidos, ticket medio e clientes atendidos."
+    columns:
+      - name: competencia
+        data_tests: [unique, not_null]
+      - name: receita_liquida
+        data_tests: [not_null]
+
+  - name: vendas_por_categoria
+    description: "Receita e desempenho por categoria de produto."
+
+  - name: vendas_por_cliente
+    description: "Ranking de clientes com receita, ticket e dias desde o ultimo pedido."
+    columns:
+      - name: cliente_id
+        data_tests: [unique, not_null]
+
+  - name: atingimento_metas
+    description: >
+      Meta x realizado por vendedor e competencia, com desvio e status
+      (ATINGIDA / PROXIMA / ABAIXO / SEM META).
+    columns:
+      - name: atingimento_pct
+        description: "realizado / meta. null quando nao ha meta."
+
+  # ------------------------------------------------- financeiro
+  - name: aging_contas_receber
+    description: "Carteira em aberto por faixa de atraso, com % da carteira total."
+
+  - name: saldo_contas_receber
+    description: "Saldo em aberto por cliente, com vencimento mais antigo e maior atraso."
+
+  - name: contas_pagar_aging
+    description: "Carteira a pagar por faixa de atraso."
+
+  - name: orcamento_vs_realizado
+    description: "Execucao orcamentaria por conta, competencia e centro de custo."
+    columns:
+      - name: desvio_pct
+        description: "realizado / orcado - 1. null quando orcado = 0."
+
+  # ------------------------------------------------- rh
+  - name: headcount
+    description: "Quadro atual: ativos, inativos, estagiarios, desligados e salario medio."
+  - name: headcount_por_area
+    description: "Distribuicao do quadro e folha por area de negocio."
+  - name: headcount_por_uf
+    description: "Distribuicao geografica do quadro ativo (uf x area)."
+  - name: custo_rh_mensal
+    description: >
+      Folha consolidada por competencia. dados_consistentes deve ser sempre true:
+      false significa que custo_total nao bate com a soma dos componentes.
+    columns:
+      - name: competencia
+        data_tests: [unique, not_null]
+  - name: horas_trabalhadas_mensal
+    description: "Ponto mensal: horas, faltas, atrasos e media por dia trabalhado."
+  - name: ferias_mensal
+    description: "Afastamentos programados por mes, com licencas e divergencias."
+
+  # ------------------------------------------------- comercial
+  - name: pipeline_por_etapa
+    description: "Carteira de oportunidades por etapa do funil."
+  - name: pipeline_por_vendedor
+    description: "Win rate, pipeline e valor ganho por vendedor."
+  - name: conversao_mensal
+    description: "Criacao x encerramento x ganho de oportunidades por mes."
+  - name: win_rate_por_regiao
+    description: "Desempenho comercial por regiao."
+  - name: atividades_mensais
+    description: "Produtividade de prospeccao: atividades, vendedores ativos e taxa positiva."
+
+  # ------------------------------------------------- marketing
+  - name: campanhas_por_canal
+    description: "ROI, CPA e taxa de conversao de campanhas pagas por canal."
+  - name: campanhas_mensais
+    description: "Investimento x receita atribuida por mes."
+  - name: trafego_mensal
+    description: "Volume de trafego, sessoes pagas e custo por lead por mes."
+  - name: trafego_por_canal
+    description: "Comparativo de canais de aquisicao."
+
+  # ------------------------------------------------- logistica
+  - name: entregas_mensais
+    description: "OTIF, custo de frete e atraso medio por mes."
+    columns:
+      - name: otif
+        description: "entregas no prazo / entregues. On Time In Full."
+  - name: entregas_por_transportadora
+    description: "Desempenho e custo por parceiro logistico."
+  - name: entregas_por_regiao
+    description: "Cobertura geografica, prazo e custo por rota origem x destino."
+  - name: estoque_abaixo_minimo
+    description: "SKUs em risco de ruptura (estoque <= minimo)."
+  - name: estoque_valor_por_categoria
+    description: "Capital imobilizado em estoque por categoria."
+
+  # ------------------------------------------------- bi
+  - name: receita_por_mes
+    description: "Serie mensal de receita consolidada da empresa."
+    columns:
+      - name: competencia
+        data_tests: [unique, not_null]
+      - name: receita_liquida
+        data_tests: [not_null]
+  - name: receita_por_segmento
+    description: "Mix de receita por segmento de cliente."
+  - name: receita_por_canal
+    description: "Mix de receita por canal de venda."
+  - name: receita_por_uf
+    description: "Distribuicao geografica da receita (uf x regiao)."

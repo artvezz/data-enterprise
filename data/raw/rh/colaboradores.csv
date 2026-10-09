@@ -1,0 +1,481 @@
+colaborador_id,nome,cargo,area,senioridade,uf,cidade,data_admissao,data_demissao,salario_bruto,tipo_contrato,status
+COL-00001,Lucas Martins,Analista de Marketing,Marketing,Pleno,DF,Outra,2025-08-02,,15273.77,Terceirizado,Ativo
+COL-00002,Felipe Gomes,Analista Financeiro,Financeiro,Pleno,PE,Outra,2025-09-06,,4378.74,CLT,Ativo
+COL-00003,Nicolas Rodrigues,Desenvolvedor Backend,Tecnologia,Pleno,SP,Sao Paulo,2025-10-19,,14599.89,CLT,Ativo
+COL-00004,Elisa Silva,Analista de Dados,Tecnologia,Pleno,PE,Outra,2025-09-25,,6058.51,CLT,Ativo
+COL-00005,Sofia Lima,Business Partner de RH,Recursos Humanos,Senior,PR,Outra,2025-12-16,,10391.41,Terceirizado,Ativo
+COL-00006,Carla Martins,Coordenador Financeiro,Financeiro,Coordenacao,CE,Outra,2025-07-12,,13508.98,PJ,Ativo
+COL-00007,Henrique Barbosa,Executivo de Contas,Comercial,Pleno,SC,Outra,2025-05-26,,7323.1,CLT,Ativo
+COL-00008,Thiago Lima,Business Partner de RH,Recursos Humanos,Senior,PR,Outra,2025-07-29,,12866.97,Estagio,Ativo
+COL-00009,Lucas Pereira,Analista de Dados,Tecnologia,Pleno,DF,Outra,2025-06-06,,7895.37,Terceirizado,Ativo
+COL-00010,Karina Alves,Coordenador Financeiro,Financeiro,Coordenacao,DF,Outra,2025-04-29,,22217.77,CLT,Ativo
+COL-00011,Ana Barbosa,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,RS,Outra,2026-04-14,,13757.6,CLT,Ativo
+COL-00012,Bruno Rodrigues,Analista de Logistica,Operacoes,Pleno,PE,Outra,2025-11-23,,21843.57,CLT,Ativo
+COL-00013,Rafael Lima,Cientista de Dados,Tecnologia,Senior,MG,Outra,2025-05-28,,2955.41,CLT,Ativo
+COL-00014,Diego Souza,Analista Financeiro,Financeiro,Pleno,BA,Outra,2026-03-25,,14200.39,Terceirizado,Ativo
+COL-00015,Elisa Silva,Gerente Regional,Comercial,Lideranca,RJ,Outra,2026-03-06,,12535.57,CLT,Ativo
+COL-00016,Isabela Lima,Engenheiro de Dados,Tecnologia,Senior,PR,Outra,2025-07-09,,4293.37,CLT,Ativo
+COL-00017,Mariana Alves,Gerente Regional,Comercial,Lideranca,PE,Outra,2025-10-24,,9507.77,PJ,Ativo
+COL-00018,Thiago Santos,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,DF,Outra,2025-04-12,2026-08-02,18826.36,Estagio,Desligado
+COL-00019,Joao Martins,Representante de Vendas,Comercial,Junior,RJ,Outra,2025-12-22,,17340.63,Estagio,Ativo
+COL-00020,Ana Pereira,Executivo de Contas,Comercial,Pleno,DF,Outra,2025-10-28,,6114.06,CLT,Ativo
+COL-00021,Elisa Rodrigues,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,DF,Outra,2025-09-07,,17158.53,Terceirizado,Ativo
+COL-00022,Elisa Santos,Analista de Dados,Tecnologia,Pleno,CE,Outra,2026-01-17,,3685.59,Estagio,Ativo
+COL-00023,Joao Souza,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,RJ,Outra,2026-01-14,,18663.89,Terceirizado,Ativo
+COL-00024,Elisa Oliveira,Gerente Regional,Comercial,Lideranca,CE,Outra,2026-03-05,,6700.65,Estagio,Ativo
+COL-00025,Sofia Araujo,Analista Financeiro,Financeiro,Pleno,MG,Outra,2025-06-06,,3953.03,Estagio,Ativo
+COL-00026,Carla Rodrigues,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,RS,Outra,2025-05-16,,4881.89,Terceirizado,Ativo
+COL-00027,Henrique Santos,Recrutador,Recursos Humanos,Pleno,MG,Outra,2025-10-08,,8844.91,CLT,Ativo
+COL-00028,Karina Carvalho,Recrutador,Recursos Humanos,Pleno,PE,Outra,2025-12-13,,16779.75,Terceirizado,Ativo
+COL-00029,Felipe Silva,Representante de Vendas,Comercial,Junior,BA,Outra,2025-09-17,,9440.15,CLT,Ativo
+COL-00030,Elisa Gomes,Gerente Regional,Comercial,Lideranca,SC,Outra,2025-08-28,,18339.02,PJ,Ativo
+COL-00031,Paulo Lima,Representante de Vendas,Comercial,Junior,RS,Outra,2026-05-10,,5107.25,Terceirizado,Ativo
+COL-00032,Gabriela Rodrigues,Analista de RH,Recursos Humanos,Pleno,CE,Outra,2025-06-19,,18351.15,Terceirizado,Ativo
+COL-00033,Ana Araujo,Analista de Dados,Tecnologia,Pleno,DF,Outra,2025-12-24,,15136.08,PJ,Ativo
+COL-00034,Isabela Lima,Analista Financeiro,Financeiro,Pleno,CE,Outra,2025-04-27,,21752.5,Estagio,Ativo
+COL-00035,Henrique Barbosa,Gerente de Dados,Tecnologia,Lideranca,BA,Outra,2025-10-13,,19169.47,Terceirizado,Ativo
+COL-00036,Queila Santos,Gerente de Dados,Tecnologia,Lideranca,CE,Outra,2025-12-02,,11211.85,Estagio,Ativo
+COL-00037,Elisa Pereira,Assistente Administrativo,Administrativo,Junior,CE,Outra,2026-05-01,,6175.52,Estagio,Ativo
+COL-00038,Paulo Ferreira,Gerente de Dados,Tecnologia,Lideranca,AM,Outra,2026-04-20,,3656.9,PJ,Ativo
+COL-00039,Bruno Gomes,Analista de RH,Recursos Humanos,Pleno,PR,Outra,2025-10-15,,7183.61,CLT,Ativo
+COL-00040,Karina Santos,Analista de Marketing,Marketing,Pleno,SP,Sao Paulo,2025-05-02,,17719.21,Estagio,Ativo
+COL-00041,Sofia Lima,Analista de RH,Recursos Humanos,Pleno,RS,Outra,2026-04-23,,14887.4,PJ,Ativo
+COL-00042,Carla Lima,Representante de Vendas,Comercial,Junior,DF,Outra,2026-02-03,,8133.63,CLT,Ativo
+COL-00043,Paulo Barbosa,Representante de Vendas,Comercial,Junior,PE,Outra,2025-10-02,,15609.27,Estagio,Ativo
+COL-00044,Carla Lima,Analista de Marketing,Marketing,Pleno,PR,Outra,2025-07-02,,16441.71,CLT,Ativo
+COL-00045,Diego Gomes,Representante de Vendas,Comercial,Junior,AM,Outra,2026-02-11,,7683.34,CLT,Ativo
+COL-00046,Paulo Souza,Especialista em Marketing Digital,Marketing,Senior,PE,Outra,2026-03-20,,15324.77,Terceirizado,Ativo
+COL-00047,Elisa Carvalho,Analista de Dados,Tecnologia,Pleno,SP,Sao Paulo,2025-08-11,,15357.77,CLT,Ativo
+COL-00048,Bruno Oliveira,Engenheiro de Dados,Tecnologia,Senior,MG,Outra,2026-01-27,,8275.1,CLT,Ativo
+COL-00049,Ana Barbosa,Executivo de Contas,Comercial,Pleno,GO,Outra,2026-02-09,,18054.4,Terceirizado,Ativo
+COL-00050,Thiago Pereira,Cientista de Dados,Tecnologia,Senior,PE,Outra,2025-07-28,,21186.81,CLT,Ativo
+COL-00051,Sofia Araujo,Gerente Regional,Comercial,Lideranca,MG,Outra,2026-02-10,,19070.79,Estagio,Ativo
+COL-00052,Karina Barbosa,Analista de RH,Recursos Humanos,Pleno,AM,Outra,2025-07-03,,12413.57,Estagio,Ativo
+COL-00053,Ana Souza,Executivo de Contas,Comercial,Pleno,RJ,Outra,2025-06-15,,13881.48,Estagio,Ativo
+COL-00054,Felipe Pereira,Gerente de Dados,Tecnologia,Lideranca,RJ,Outra,2026-02-13,,21914.09,Estagio,Ativo
+COL-00055,Carla Pereira,Analista de Logistica,Operacoes,Pleno,RJ,Outra,2026-04-29,,16779.12,Estagio,Ativo
+COL-00056,Nicolas Lima,Analista de Dados,Tecnologia,Pleno,DF,Outra,2026-05-10,,11718.5,CLT,Ativo
+COL-00057,Paulo Martins,Gerente Regional,Comercial,Lideranca,PR,Outra,2025-08-04,,19095.84,CLT,Ativo
+COL-00058,Isabela Pereira,Desenvolvedor Backend,Tecnologia,Pleno,MG,Outra,2025-11-12,,19036.21,CLT,Ativo
+COL-00059,Gabriela Silva,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,RS,Outra,2025-11-04,,17833.96,CLT,Ativo
+COL-00060,Mariana Gomes,Desenvolvedor Backend,Tecnologia,Pleno,SP,Sao Paulo,2025-12-31,,7154.88,CLT,Ativo
+COL-00061,Sofia Rodrigues,Desenvolvedor Backend,Tecnologia,Pleno,BA,Outra,2025-06-27,,8339.62,Estagio,Ativo
+COL-00062,Mariana Martins,Representante de Vendas,Comercial,Junior,RS,Outra,2026-02-16,,7118.31,Estagio,Ativo
+COL-00063,Rafael Lima,Especialista em Marketing Digital,Marketing,Senior,SC,Outra,2025-07-09,,13055.72,CLT,Ativo
+COL-00064,Diego Ribeiro,Executivo de Contas,Comercial,Pleno,MG,Outra,2026-04-20,,7671.15,Terceirizado,Ativo
+COL-00065,Mariana Martins,Desenvolvedor Backend,Tecnologia,Pleno,CE,Outra,2025-07-27,,9974.88,Estagio,Ativo
+COL-00066,Ana Martins,Engenheiro de Dados,Tecnologia,Senior,BA,Outra,2025-06-30,,4731.08,CLT,Ativo
+COL-00067,Isabela Souza,Gerente Regional,Comercial,Lideranca,RJ,Outra,2025-05-24,,10661.7,Estagio,Ativo
+COL-00068,Queila Rodrigues,Executivo de Contas,Comercial,Pleno,DF,Outra,2026-02-17,,17886.04,Estagio,Ativo
+COL-00069,Gabriela Araujo,Especialista em Marketing Digital,Marketing,Senior,SP,Sao Paulo,2025-11-19,,16725.95,Estagio,Ativo
+COL-00070,Queila Ribeiro,Engenheiro de Dados,Tecnologia,Senior,CE,Outra,2026-02-09,,7711.42,CLT,Ativo
+COL-00071,Ana Oliveira,Representante de Vendas,Comercial,Junior,DF,Outra,2025-08-09,,4641.07,CLT,Ativo
+COL-00072,Mariana Carvalho,Representante de Vendas,Comercial,Junior,BA,Outra,2026-03-17,,7046.58,CLT,Ativo
+COL-00073,Joao Ribeiro,Cientista de Dados,Tecnologia,Senior,CE,Outra,2025-05-25,,20391.01,Estagio,Ativo
+COL-00074,Gabriela Pereira,Analista de RH,Recursos Humanos,Pleno,GO,Outra,2025-08-02,,22509.93,Estagio,Ativo
+COL-00075,Rafael Santos,Gerente Regional,Comercial,Lideranca,RJ,Outra,2025-12-24,,13467.19,CLT,Ativo
+COL-00076,Sofia Rodrigues,Analista de Logistica,Operacoes,Pleno,CE,Outra,2025-08-18,,17516.87,PJ,Ativo
+COL-00077,Olivia Gomes,Coordenador Financeiro,Financeiro,Coordenacao,SC,Outra,2026-05-01,,12567.27,Estagio,Ativo
+COL-00078,Carla Alves,Especialista em Marketing Digital,Marketing,Senior,RS,Outra,2025-06-07,,16233.63,CLT,Ativo
+COL-00079,Lucas Lima,Coordenador Financeiro,Financeiro,Coordenacao,BA,Outra,2025-09-17,,14155.82,Terceirizado,Ativo
+COL-00080,Mariana Gomes,Coordenador Financeiro,Financeiro,Coordenacao,RJ,Outra,2025-09-03,,18674.31,CLT,Ativo
+COL-00081,Gabriela Barbosa,Especialista em Marketing Digital,Marketing,Senior,SC,Outra,2025-09-16,,14962.71,CLT,Ativo
+COL-00082,Gabriela Souza,Analista Financeiro,Financeiro,Pleno,AM,Outra,2025-12-20,,18391.1,CLT,Ativo
+COL-00083,Lucas Oliveira,Analista Financeiro,Financeiro,Pleno,GO,Outra,2025-08-14,,19313.5,CLT,Ativo
+COL-00084,Rafael Silva,Especialista em Marketing Digital,Marketing,Senior,SP,Sao Paulo,2026-02-17,,20777.82,CLT,Ativo
+COL-00085,Paulo Oliveira,Especialista em Marketing Digital,Marketing,Senior,RS,Outra,2026-01-28,,23669.17,Estagio,Ativo
+COL-00086,Elisa Silva,Coordenador Financeiro,Financeiro,Coordenacao,GO,Outra,2026-04-28,,13945.59,PJ,Ativo
+COL-00087,Lucas Alves,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,CE,Outra,2025-04-25,,21040.48,CLT,Ativo
+COL-00088,Olivia Ferreira,Desenvolvedor Backend,Tecnologia,Pleno,CE,Outra,2026-04-01,,17411.26,CLT,Ativo
+COL-00089,Karina Ferreira,Executivo de Contas,Comercial,Pleno,RJ,Outra,2026-01-31,,15790.9,CLT,Ativo
+COL-00090,Paulo Carvalho,Analista de RH,Recursos Humanos,Pleno,RS,Outra,2025-08-08,,10073.64,CLT,Ativo
+COL-00091,Lucas Ferreira,Analista Financeiro,Financeiro,Pleno,AM,Outra,2025-11-09,,20911.71,CLT,Ativo
+COL-00092,Henrique Araujo,Gerente de Dados,Tecnologia,Lideranca,DF,Outra,2026-01-28,,4917.24,CLT,Ativo
+COL-00093,Gabriela Oliveira,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,BA,Outra,2025-11-16,2026-06-23,19760.79,Terceirizado,Desligado
+COL-00094,Elisa Barbosa,Assistente Administrativo,Administrativo,Junior,PE,Outra,2025-11-10,,20807.07,Estagio,Ativo
+COL-00095,Isabela Lima,Recrutador,Recursos Humanos,Pleno,RS,Outra,2025-12-14,,21000.24,CLT,Ativo
+COL-00096,Isabela Pereira,Assistente Administrativo,Administrativo,Junior,PR,Outra,2025-05-09,,20586.2,CLT,Ativo
+COL-00097,Lucas Lima,Recrutador,Recursos Humanos,Pleno,SC,Outra,2025-08-20,,14618.82,CLT,Ativo
+COL-00098,Thiago Souza,Gerente Regional,Comercial,Lideranca,SC,Outra,2025-06-10,,15029.3,Terceirizado,Ativo
+COL-00099,Lucas Ferreira,Assistente Administrativo,Administrativo,Junior,RS,Outra,2026-05-13,,17071.69,PJ,Ativo
+COL-00100,Thiago Rodrigues,Analista de Marketing,Marketing,Pleno,BA,Outra,2025-05-19,,12631.54,CLT,Ativo
+COL-00101,Thiago Carvalho,Recrutador,Recursos Humanos,Pleno,DF,Outra,2025-11-10,,11381.18,CLT,Ativo
+COL-00102,Joao Ribeiro,Coordenador Financeiro,Financeiro,Coordenacao,SC,Outra,2025-09-16,,8470.41,Terceirizado,Ativo
+COL-00103,Sofia Lima,Analista de Marketing,Marketing,Pleno,SC,Outra,2026-05-13,,23269.15,PJ,Ativo
+COL-00104,Isabela Ribeiro,Gerente de Dados,Tecnologia,Lideranca,PR,Outra,2026-04-16,,17654.77,CLT,Ativo
+COL-00105,Carla Barbosa,Executivo de Contas,Comercial,Pleno,RJ,Outra,2025-05-31,,21428.25,Estagio,Ativo
+COL-00106,Diego Rodrigues,Analista de Logistica,Operacoes,Pleno,RJ,Outra,2026-05-05,,15903.77,CLT,Ativo
+COL-00107,Henrique Ribeiro,Executivo de Contas,Comercial,Pleno,PR,Outra,2025-09-14,,8824.52,Terceirizado,Ativo
+COL-00108,Lucas Araujo,Assistente Administrativo,Administrativo,Junior,SP,Sao Paulo,2025-04-23,,22203.77,PJ,Ativo
+COL-00109,Olivia Oliveira,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,CE,Outra,2025-08-26,,23354.3,Terceirizado,Ativo
+COL-00110,Sofia Alves,Analista de Marketing,Marketing,Pleno,AM,Outra,2026-02-26,,13897.35,Terceirizado,Ativo
+COL-00111,Henrique Martins,Representante de Vendas,Comercial,Junior,CE,Outra,2025-12-11,,4698.55,CLT,Ativo
+COL-00112,Ana Silva,Analista de RH,Recursos Humanos,Pleno,RS,Outra,2025-06-27,,13894.3,CLT,Ativo
+COL-00113,Paulo Martins,Especialista em Marketing Digital,Marketing,Senior,SP,Sao Paulo,2026-01-07,,12913.82,CLT,Ativo
+COL-00114,Ana Lima,Business Partner de RH,Recursos Humanos,Senior,PR,Outra,2026-02-08,,10721.25,PJ,Ativo
+COL-00115,Felipe Ribeiro,Gerente Regional,Comercial,Lideranca,PR,Outra,2025-10-28,,18426.9,PJ,Ativo
+COL-00116,Nicolas Gomes,Coordenador Financeiro,Financeiro,Coordenacao,RJ,Outra,2025-08-21,,7878.71,Estagio,Ativo
+COL-00117,Rafael Martins,Analista de RH,Recursos Humanos,Pleno,DF,Outra,2025-09-01,,8499.03,CLT,Ativo
+COL-00118,Diego Gomes,Assistente Administrativo,Administrativo,Junior,RS,Outra,2025-06-17,,12453.27,PJ,Ativo
+COL-00119,Ana Oliveira,Especialista em Marketing Digital,Marketing,Senior,SC,Outra,2025-07-14,,3852.2,Estagio,Ativo
+COL-00120,Olivia Ribeiro,Business Partner de RH,Recursos Humanos,Senior,MG,Outra,2025-08-24,,2973.93,CLT,Ativo
+COL-00121,Joao Martins,Analista Financeiro,Financeiro,Pleno,BA,Outra,2025-10-01,,19748.6,CLT,Ativo
+COL-00122,Elisa Silva,Engenheiro de Dados,Tecnologia,Senior,RJ,Outra,2025-09-25,,8449.88,PJ,Ativo
+COL-00123,Mariana Araujo,Assistente Administrativo,Administrativo,Junior,RS,Outra,2025-07-16,,3067.45,Terceirizado,Ativo
+COL-00124,Bruno Souza,Analista de Marketing,Marketing,Pleno,AM,Outra,2025-08-13,,12569.69,CLT,Ativo
+COL-00125,Joao Barbosa,Analista Financeiro,Financeiro,Pleno,BA,Outra,2025-12-07,,9648.94,Terceirizado,Ativo
+COL-00126,Isabela Pereira,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,RJ,Outra,2025-12-31,,16336.62,CLT,Ativo
+COL-00127,Diego Souza,Engenheiro de Dados,Tecnologia,Senior,PR,Outra,2026-03-16,,16217.67,CLT,Ativo
+COL-00128,Henrique Silva,Desenvolvedor Backend,Tecnologia,Pleno,PR,Outra,2025-10-28,,23339.3,Estagio,Ativo
+COL-00129,Elisa Ferreira,Especialista em Marketing Digital,Marketing,Senior,GO,Outra,2026-03-27,,19140.9,CLT,Ativo
+COL-00130,Bruno Silva,Recrutador,Recursos Humanos,Pleno,DF,Outra,2026-05-02,,10336.97,CLT,Ativo
+COL-00131,Henrique Ferreira,Desenvolvedor Backend,Tecnologia,Pleno,PE,Outra,2025-06-12,,23611.53,Terceirizado,Ativo
+COL-00132,Ana Ribeiro,Analista de Marketing,Marketing,Pleno,PR,Outra,2026-04-19,,10808.7,Terceirizado,Ativo
+COL-00133,Rafael Rodrigues,Especialista em Marketing Digital,Marketing,Senior,PE,Outra,2026-04-05,,14305.96,PJ,Ativo
+COL-00134,Karina Ribeiro,Assistente Administrativo,Administrativo,Junior,SC,Outra,2026-01-12,,12729.97,Estagio,Ativo
+COL-00135,Queila Oliveira,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,RJ,Outra,2025-06-30,,12326.95,CLT,Ativo
+COL-00136,Queila Alves,Analista de Marketing,Marketing,Pleno,PR,Outra,2025-04-09,,18353.54,CLT,Ativo
+COL-00137,Henrique Ferreira,Representante de Vendas,Comercial,Junior,GO,Outra,2026-05-11,,18085.28,Terceirizado,Ativo
+COL-00138,Paulo Martins,Executivo de Contas,Comercial,Pleno,CE,Outra,2025-07-15,,14491.12,Estagio,Ativo
+COL-00139,Diego Santos,Gerente Regional,Comercial,Lideranca,SC,Outra,2026-03-03,,13891.85,CLT,Ativo
+COL-00140,Diego Pereira,Assistente Administrativo,Administrativo,Junior,PR,Outra,2025-04-25,,6862.27,CLT,Ativo
+COL-00141,Queila Carvalho,Executivo de Contas,Comercial,Pleno,PE,Outra,2026-03-11,,17667.86,CLT,Ativo
+COL-00142,Paulo Barbosa,Cientista de Dados,Tecnologia,Senior,PR,Outra,2025-04-15,,21663.07,CLT,Ativo
+COL-00143,Nicolas Araujo,Engenheiro de Dados,Tecnologia,Senior,CE,Outra,2025-10-10,,10624.26,Terceirizado,Ativo
+COL-00144,Carla Araujo,Analista de RH,Recursos Humanos,Pleno,SP,Sao Paulo,2026-01-04,,9242.78,CLT,Ativo
+COL-00145,Henrique Lima,Desenvolvedor Backend,Tecnologia,Pleno,AM,Outra,2025-05-30,,10969.02,CLT,Ativo
+COL-00146,Felipe Lima,Coordenador Financeiro,Financeiro,Coordenacao,DF,Outra,2026-01-25,,18682.92,PJ,Ativo
+COL-00147,Nicolas Barbosa,Representante de Vendas,Comercial,Junior,PE,Outra,2026-03-20,,5006.97,CLT,Ativo
+COL-00148,Felipe Lima,Analista de Logistica,Operacoes,Pleno,DF,Outra,2025-09-28,,23966.79,PJ,Ativo
+COL-00149,Lucas Alves,Recrutador,Recursos Humanos,Pleno,SC,Outra,2026-01-15,,19000.71,PJ,Ativo
+COL-00150,Sofia Lima,Recrutador,Recursos Humanos,Pleno,PR,Outra,2026-02-14,,7335.28,Estagio,Ativo
+COL-00151,Olivia Alves,Analista de RH,Recursos Humanos,Pleno,PE,Outra,2025-10-10,,2804.15,CLT,Ativo
+COL-00152,Joao Silva,Analista de Dados,Tecnologia,Pleno,MG,Outra,2025-12-30,,9167.08,CLT,Ativo
+COL-00153,Isabela Barbosa,Recrutador,Recursos Humanos,Pleno,PR,Outra,2025-04-20,,14537.66,Estagio,Ativo
+COL-00154,Olivia Ferreira,Gerente de Dados,Tecnologia,Lideranca,SP,Sao Paulo,2025-05-27,,6109.47,CLT,Ativo
+COL-00155,Joao Santos,Coordenador Financeiro,Financeiro,Coordenacao,RS,Outra,2025-08-06,,14894.33,Estagio,Ativo
+COL-00156,Paulo Oliveira,Cientista de Dados,Tecnologia,Senior,SC,Outra,2026-04-14,,13151.46,Terceirizado,Ativo
+COL-00157,Joao Silva,Desenvolvedor Backend,Tecnologia,Pleno,DF,Outra,2026-02-07,,18292.73,Estagio,Ativo
+COL-00158,Lucas Barbosa,Engenheiro de Dados,Tecnologia,Senior,SC,Outra,2026-05-08,,20123.4,PJ,Ativo
+COL-00159,Thiago Barbosa,Desenvolvedor Backend,Tecnologia,Pleno,PR,Outra,2026-05-08,,3042.41,Terceirizado,Ativo
+COL-00160,Karina Lima,Business Partner de RH,Recursos Humanos,Senior,SP,Sao Paulo,2026-01-02,,14776.15,CLT,Ativo
+COL-00161,Mariana Pereira,Coordenador Financeiro,Financeiro,Coordenacao,SP,Sao Paulo,2025-06-26,,18760.21,Estagio,Ativo
+COL-00162,Mariana Oliveira,Coordenador Financeiro,Financeiro,Coordenacao,RS,Outra,2025-11-16,,5602.41,CLT,Ativo
+COL-00163,Isabela Santos,Engenheiro de Dados,Tecnologia,Senior,BA,Outra,2026-01-14,,11248.77,PJ,Ativo
+COL-00164,Paulo Lima,Gerente de Dados,Tecnologia,Lideranca,MG,Outra,2026-05-04,,6999.9,PJ,Ativo
+COL-00165,Queila Souza,Analista Financeiro,Financeiro,Pleno,GO,Outra,2026-01-21,,7937.08,CLT,Ativo
+COL-00166,Carla Santos,Recrutador,Recursos Humanos,Pleno,GO,Outra,2026-03-25,,17041.05,PJ,Ativo
+COL-00167,Thiago Gomes,Analista Financeiro,Financeiro,Pleno,SC,Outra,2025-09-20,,3313.18,CLT,Ativo
+COL-00168,Olivia Silva,Analista de Marketing,Marketing,Pleno,MG,Outra,2026-02-22,,22393.32,CLT,Ativo
+COL-00169,Carla Santos,Representante de Vendas,Comercial,Junior,PR,Outra,2025-06-27,,18479.13,CLT,Ativo
+COL-00170,Karina Ribeiro,Gerente de Dados,Tecnologia,Lideranca,SP,Sao Paulo,2025-09-03,,19850.75,CLT,Ativo
+COL-00171,Rafael Souza,Analista de Dados,Tecnologia,Pleno,PR,Outra,2025-09-25,,7120.59,Estagio,Ativo
+COL-00172,Elisa Ribeiro,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,GO,Outra,2025-12-12,,17613.61,CLT,Ativo
+COL-00173,Felipe Silva,Analista de Logistica,Operacoes,Pleno,RS,Outra,2025-05-01,,8821.09,Terceirizado,Ativo
+COL-00174,Ana Santos,Engenheiro de Dados,Tecnologia,Senior,DF,Outra,2025-12-03,,11039.28,CLT,Ativo
+COL-00175,Joao Araujo,Representante de Vendas,Comercial,Junior,SP,Sao Paulo,2025-06-03,,21528.13,PJ,Ativo
+COL-00176,Diego Barbosa,Executivo de Contas,Comercial,Pleno,AM,Outra,2025-12-25,,9487.67,Estagio,Ativo
+COL-00177,Olivia Lima,Assistente Administrativo,Administrativo,Junior,CE,Outra,2025-07-19,,22438.62,CLT,Ativo
+COL-00178,Mariana Ribeiro,Business Partner de RH,Recursos Humanos,Senior,PE,Outra,2025-09-26,,6128.51,CLT,Ativo
+COL-00179,Henrique Lima,Representante de Vendas,Comercial,Junior,RS,Outra,2026-02-23,,8648.62,CLT,Ativo
+COL-00180,Isabela Souza,Executivo de Contas,Comercial,Pleno,CE,Outra,2025-04-24,,6016.21,PJ,Ativo
+COL-00181,Queila Gomes,Cientista de Dados,Tecnologia,Senior,BA,Outra,2026-04-17,,15783.91,Terceirizado,Ativo
+COL-00182,Elisa Alves,Gerente Regional,Comercial,Lideranca,GO,Outra,2025-08-10,,23375.39,Estagio,Ativo
+COL-00183,Elisa Carvalho,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,PR,Outra,2025-06-15,,14276.7,CLT,Ativo
+COL-00184,Queila Barbosa,Business Partner de RH,Recursos Humanos,Senior,AM,Outra,2026-03-27,,5667.35,CLT,Ativo
+COL-00185,Rafael Lima,Assistente Administrativo,Administrativo,Junior,RJ,Outra,2025-09-18,,22910.35,CLT,Ativo
+COL-00186,Karina Barbosa,Gerente de Dados,Tecnologia,Lideranca,SP,Sao Paulo,2026-04-16,,23425.4,PJ,Ativo
+COL-00187,Gabriela Santos,Analista de RH,Recursos Humanos,Pleno,PR,Outra,2025-06-25,,5588.77,CLT,Ativo
+COL-00188,Thiago Souza,Analista de RH,Recursos Humanos,Pleno,GO,Outra,2026-02-13,,15442.85,CLT,Ativo
+COL-00189,Paulo Oliveira,Representante de Vendas,Comercial,Junior,AM,Outra,2025-05-19,,13449.28,Estagio,Ativo
+COL-00190,Paulo Pereira,Representante de Vendas,Comercial,Junior,BA,Outra,2025-07-12,,5715.27,CLT,Ativo
+COL-00191,Isabela Alves,Gerente Regional,Comercial,Lideranca,SP,Sao Paulo,2026-05-05,,7518.15,Terceirizado,Ativo
+COL-00192,Olivia Araujo,Analista Financeiro,Financeiro,Pleno,MG,Outra,2025-05-12,,15881.66,Terceirizado,Ativo
+COL-00193,Mariana Martins,Analista de Marketing,Marketing,Pleno,BA,Outra,2025-08-13,,3686.72,Terceirizado,Ativo
+COL-00194,Sofia Carvalho,Recrutador,Recursos Humanos,Pleno,GO,Outra,2025-10-27,,14166.58,Terceirizado,Ativo
+COL-00195,Olivia Pereira,Engenheiro de Dados,Tecnologia,Senior,RJ,Outra,2025-12-31,,20332.61,CLT,Ativo
+COL-00196,Mariana Ribeiro,Coordenador Financeiro,Financeiro,Coordenacao,CE,Outra,2025-12-30,,3632.13,PJ,Ativo
+COL-00197,Olivia Alves,Engenheiro de Dados,Tecnologia,Senior,RS,Outra,2025-07-15,,21549.23,CLT,Ativo
+COL-00198,Bruno Ribeiro,Gerente Regional,Comercial,Lideranca,GO,Outra,2025-09-06,,13759.76,CLT,Ativo
+COL-00199,Queila Santos,Analista de Marketing,Marketing,Pleno,AM,Outra,2025-05-25,,6611.15,Estagio,Ativo
+COL-00200,Nicolas Ferreira,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,BA,Outra,2025-06-17,,12358.78,CLT,Ativo
+COL-00201,Isabela Ferreira,Analista Financeiro,Financeiro,Pleno,RJ,Outra,2025-11-27,,17464.41,Terceirizado,Ativo
+COL-00202,Olivia Gomes,Desenvolvedor Backend,Tecnologia,Pleno,RJ,Outra,2025-05-25,,10494.4,Estagio,Ativo
+COL-00203,Mariana Lima,Analista de Logistica,Operacoes,Pleno,MG,Outra,2026-02-16,,10868.87,CLT,Ativo
+COL-00204,Felipe Martins,Gerente de Dados,Tecnologia,Lideranca,MG,Outra,2025-07-01,,17895.41,PJ,Ativo
+COL-00205,Felipe Santos,Analista de Marketing,Marketing,Pleno,DF,Outra,2025-09-03,,21849.09,CLT,Ativo
+COL-00206,Paulo Lima,Analista de Dados,Tecnologia,Pleno,PE,Outra,2025-11-29,,19918.04,Estagio,Ativo
+COL-00207,Paulo Pereira,Coordenador Financeiro,Financeiro,Coordenacao,GO,Outra,2025-07-29,,11495.21,CLT,Ativo
+COL-00208,Isabela Carvalho,Analista de Dados,Tecnologia,Pleno,CE,Outra,2025-08-12,,16127.07,CLT,Ativo
+COL-00209,Bruno Oliveira,Engenheiro de Dados,Tecnologia,Senior,SC,Outra,2026-03-09,,20901.18,Terceirizado,Ativo
+COL-00210,Bruno Santos,Business Partner de RH,Recursos Humanos,Senior,RJ,Outra,2025-09-25,,11639.49,CLT,Ativo
+COL-00211,Sofia Ferreira,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,PE,Outra,2025-07-08,,22547.37,CLT,Ativo
+COL-00212,Carla Martins,Recrutador,Recursos Humanos,Pleno,BA,Outra,2025-10-14,,11859.27,Estagio,Ativo
+COL-00213,Isabela Ferreira,Gerente de Dados,Tecnologia,Lideranca,AM,Outra,2025-06-10,,13973.52,Estagio,Ativo
+COL-00214,Diego Carvalho,Analista Financeiro,Financeiro,Pleno,SP,Sao Paulo,2026-02-16,,18270.24,Terceirizado,Ativo
+COL-00215,Thiago Barbosa,Cientista de Dados,Tecnologia,Senior,AM,Outra,2025-12-12,,19509.52,Terceirizado,Ativo
+COL-00216,Sofia Carvalho,Recrutador,Recursos Humanos,Pleno,CE,Outra,2025-08-19,,10301.69,CLT,Ativo
+COL-00217,Paulo Pereira,Especialista em Marketing Digital,Marketing,Senior,AM,Outra,2025-12-31,,19929.18,Estagio,Ativo
+COL-00218,Diego Silva,Business Partner de RH,Recursos Humanos,Senior,SP,Sao Paulo,2025-07-17,,12655.58,CLT,Ativo
+COL-00219,Nicolas Silva,Analista Financeiro,Financeiro,Pleno,BA,Outra,2026-02-18,,9876.4,Estagio,Ativo
+COL-00220,Gabriela Ribeiro,Analista Financeiro,Financeiro,Pleno,DF,Outra,2025-04-14,,8770.49,CLT,Ativo
+COL-00221,Ana Santos,Analista de Logistica,Operacoes,Pleno,SC,Outra,2026-01-15,,17339.72,CLT,Ativo
+COL-00222,Karina Araujo,Analista de Dados,Tecnologia,Pleno,PR,Outra,2025-07-07,,9964.26,Terceirizado,Ativo
+COL-00223,Elisa Pereira,Especialista em Marketing Digital,Marketing,Senior,DF,Outra,2025-04-27,,6094.19,PJ,Ativo
+COL-00224,Nicolas Barbosa,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,PE,Outra,2025-09-27,,18542.79,Estagio,Ativo
+COL-00225,Ana Souza,Recrutador,Recursos Humanos,Pleno,CE,Outra,2026-01-18,,15040.83,CLT,Ativo
+COL-00226,Isabela Araujo,Representante de Vendas,Comercial,Junior,MG,Outra,2025-05-12,,3460.87,PJ,Ativo
+COL-00227,Mariana Oliveira,Assistente Administrativo,Administrativo,Junior,GO,Outra,2026-01-26,,15418.07,CLT,Ativo
+COL-00228,Isabela Alves,Recrutador,Recursos Humanos,Pleno,SP,Sao Paulo,2026-04-07,,4640.11,CLT,Ativo
+COL-00229,Joao Oliveira,Business Partner de RH,Recursos Humanos,Senior,CE,Outra,2025-07-28,,5179.3,CLT,Ativo
+COL-00230,Ana Martins,Cientista de Dados,Tecnologia,Senior,CE,Outra,2025-11-22,,13032.46,Estagio,Ativo
+COL-00231,Joao Martins,Especialista em Marketing Digital,Marketing,Senior,CE,Outra,2026-04-19,,9739.56,CLT,Ativo
+COL-00232,Gabriela Ribeiro,Analista de Logistica,Operacoes,Pleno,MG,Outra,2026-03-21,,3574.91,PJ,Ativo
+COL-00233,Joao Barbosa,Analista de Logistica,Operacoes,Pleno,SP,Sao Paulo,2025-06-07,,3733.44,Estagio,Ativo
+COL-00234,Diego Lima,Recrutador,Recursos Humanos,Pleno,SP,Sao Paulo,2025-12-04,,19043.02,Terceirizado,Ativo
+COL-00235,Karina Souza,Business Partner de RH,Recursos Humanos,Senior,PR,Outra,2026-03-02,,6881.97,CLT,Ativo
+COL-00236,Isabela Oliveira,Analista de Marketing,Marketing,Pleno,RJ,Outra,2026-03-18,,6138.92,CLT,Ativo
+COL-00237,Gabriela Lima,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,RJ,Outra,2025-12-28,,10226.74,CLT,Ativo
+COL-00238,Felipe Santos,Business Partner de RH,Recursos Humanos,Senior,PR,Outra,2026-01-27,,9401.2,CLT,Ativo
+COL-00239,Paulo Barbosa,Engenheiro de Dados,Tecnologia,Senior,SP,Sao Paulo,2025-06-14,,17120.51,CLT,Ativo
+COL-00240,Felipe Ribeiro,Cientista de Dados,Tecnologia,Senior,BA,Outra,2025-11-13,,15437.77,Estagio,Ativo
+COL-00241,Joao Ferreira,Analista de Marketing,Marketing,Pleno,SC,Outra,2026-02-18,,20129.77,Terceirizado,Ativo
+COL-00242,Olivia Carvalho,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,PR,Outra,2025-05-19,,5594.06,Terceirizado,Ativo
+COL-00243,Olivia Pereira,Analista de Marketing,Marketing,Pleno,DF,Outra,2025-09-14,,7711.92,CLT,Ativo
+COL-00244,Felipe Ribeiro,Analista de RH,Recursos Humanos,Pleno,BA,Outra,2025-10-12,,22246.01,CLT,Ativo
+COL-00245,Ana Santos,Recrutador,Recursos Humanos,Pleno,PE,Outra,2025-11-27,,12877.09,CLT,Ativo
+COL-00246,Lucas Carvalho,Assistente Administrativo,Administrativo,Junior,PR,Outra,2025-08-31,,14983.18,Estagio,Ativo
+COL-00247,Carla Martins,Recrutador,Recursos Humanos,Pleno,DF,Outra,2026-01-18,,9204.9,PJ,Ativo
+COL-00248,Henrique Lima,Gerente Regional,Comercial,Lideranca,GO,Outra,2025-08-09,,6171.23,PJ,Ativo
+COL-00249,Sofia Alves,Recrutador,Recursos Humanos,Pleno,AM,Outra,2025-07-24,,19427.46,PJ,Ativo
+COL-00250,Henrique Oliveira,Recrutador,Recursos Humanos,Pleno,AM,Outra,2026-01-12,,16847.38,CLT,Ativo
+COL-00251,Thiago Pereira,Especialista em Marketing Digital,Marketing,Senior,GO,Outra,2025-06-06,,9698.02,CLT,Ativo
+COL-00252,Carla Carvalho,Assistente Administrativo,Administrativo,Junior,BA,Outra,2025-09-13,,5105.39,Estagio,Ativo
+COL-00253,Bruno Santos,Executivo de Contas,Comercial,Pleno,PE,Outra,2025-09-23,,7413.37,CLT,Ativo
+COL-00254,Elisa Pereira,Analista de Dados,Tecnologia,Pleno,MG,Outra,2026-05-01,,14062.62,PJ,Ativo
+COL-00255,Karina Rodrigues,Analista de Marketing,Marketing,Pleno,PR,Outra,2025-07-18,,14889.86,Terceirizado,Ativo
+COL-00256,Carla Carvalho,Gerente Regional,Comercial,Lideranca,SC,Outra,2026-04-11,,2972.13,Estagio,Ativo
+COL-00257,Lucas Barbosa,Gerente de Dados,Tecnologia,Lideranca,SP,Sao Paulo,2025-09-06,,14436.36,CLT,Ativo
+COL-00258,Ana Souza,Representante de Vendas,Comercial,Junior,RS,Outra,2025-06-04,,11952.37,Estagio,Ativo
+COL-00259,Mariana Alves,Recrutador,Recursos Humanos,Pleno,BA,Outra,2026-04-08,,12026.03,CLT,Ativo
+COL-00260,Rafael Alves,Especialista em Marketing Digital,Marketing,Senior,PR,Outra,2025-06-19,,20678.55,CLT,Ativo
+COL-00261,Elisa Oliveira,Gerente de Dados,Tecnologia,Lideranca,DF,Outra,2025-09-03,,3045.98,Terceirizado,Ativo
+COL-00262,Elisa Gomes,Gerente Regional,Comercial,Lideranca,RJ,Outra,2025-06-17,,19885.96,PJ,Ativo
+COL-00263,Olivia Lima,Gerente Regional,Comercial,Lideranca,MG,Outra,2026-02-22,,11791.44,PJ,Ativo
+COL-00264,Thiago Silva,Coordenador Financeiro,Financeiro,Coordenacao,BA,Outra,2025-07-13,,15052.3,Terceirizado,Ativo
+COL-00265,Rafael Carvalho,Analista de Logistica,Operacoes,Pleno,BA,Outra,2025-08-24,,10579.76,CLT,Ativo
+COL-00266,Paulo Ribeiro,Representante de Vendas,Comercial,Junior,GO,Outra,2025-06-05,,4497.34,Terceirizado,Ativo
+COL-00267,Carla Lima,Analista de RH,Recursos Humanos,Pleno,CE,Outra,2025-12-03,,21666.21,CLT,Ativo
+COL-00268,Rafael Martins,Cientista de Dados,Tecnologia,Senior,DF,Outra,2026-03-25,,15088.12,Estagio,Ativo
+COL-00269,Paulo Pereira,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,SP,Sao Paulo,2026-05-12,,13668.46,PJ,Ativo
+COL-00270,Joao Rodrigues,Recrutador,Recursos Humanos,Pleno,SC,Outra,2025-11-10,,6351.17,Terceirizado,Ativo
+COL-00271,Sofia Rodrigues,Business Partner de RH,Recursos Humanos,Senior,PR,Outra,2026-04-16,,4102.06,PJ,Ativo
+COL-00272,Thiago Silva,Engenheiro de Dados,Tecnologia,Senior,RS,Outra,2026-03-11,,8880.49,CLT,Ativo
+COL-00273,Thiago Rodrigues,Analista de RH,Recursos Humanos,Pleno,MG,Outra,2025-08-16,,8634.6,CLT,Ativo
+COL-00274,Elisa Gomes,Assistente Administrativo,Administrativo,Junior,AM,Outra,2026-02-05,,12269.05,CLT,Ativo
+COL-00275,Queila Araujo,Coordenador Financeiro,Financeiro,Coordenacao,MG,Outra,2025-12-13,,3501.52,CLT,Ativo
+COL-00276,Nicolas Martins,Gerente de Dados,Tecnologia,Lideranca,PR,Outra,2025-12-18,,10923.14,Terceirizado,Ativo
+COL-00277,Lucas Silva,Assistente Administrativo,Administrativo,Junior,GO,Outra,2025-07-25,,16415.94,CLT,Ativo
+COL-00278,Paulo Ribeiro,Executivo de Contas,Comercial,Pleno,RS,Outra,2025-12-08,,22902.94,Estagio,Ativo
+COL-00279,Elisa Lima,Executivo de Contas,Comercial,Pleno,RS,Outra,2025-12-07,,21249.89,CLT,Ativo
+COL-00280,Karina Lima,Analista de Marketing,Marketing,Pleno,DF,Outra,2025-10-21,,17276.98,CLT,Ativo
+COL-00281,Isabela Ferreira,Representante de Vendas,Comercial,Junior,GO,Outra,2025-11-16,,8530.91,CLT,Ativo
+COL-00282,Henrique Ribeiro,Executivo de Contas,Comercial,Pleno,PR,Outra,2025-12-01,,17044.06,CLT,Ativo
+COL-00283,Ana Gomes,Assistente Administrativo,Administrativo,Junior,CE,Outra,2025-09-16,,2979.69,CLT,Ativo
+COL-00284,Olivia Ferreira,Analista de Logistica,Operacoes,Pleno,DF,Outra,2025-06-01,,7451.63,CLT,Ativo
+COL-00285,Carla Silva,Engenheiro de Dados,Tecnologia,Senior,GO,Outra,2025-04-21,,22696.32,Terceirizado,Ativo
+COL-00286,Diego Ribeiro,Analista Financeiro,Financeiro,Pleno,DF,Outra,2026-02-09,,23105.26,CLT,Ativo
+COL-00287,Sofia Martins,Gerente de Dados,Tecnologia,Lideranca,DF,Outra,2025-10-18,,23303.91,CLT,Ativo
+COL-00288,Carla Gomes,Analista de RH,Recursos Humanos,Pleno,PE,Outra,2025-09-06,,12413.01,CLT,Ativo
+COL-00289,Carla Rodrigues,Recrutador,Recursos Humanos,Pleno,MG,Outra,2025-08-18,,19274.65,PJ,Ativo
+COL-00290,Felipe Pereira,Engenheiro de Dados,Tecnologia,Senior,RS,Outra,2025-08-19,,4271.25,CLT,Ativo
+COL-00291,Diego Oliveira,Assistente Administrativo,Administrativo,Junior,PE,Outra,2026-03-05,,14261.4,PJ,Ativo
+COL-00292,Isabela Santos,Desenvolvedor Backend,Tecnologia,Pleno,AM,Outra,2025-11-21,,3539.05,CLT,Ativo
+COL-00293,Ana Barbosa,Analista de RH,Recursos Humanos,Pleno,PE,Outra,2026-05-11,,13351.27,Terceirizado,Ativo
+COL-00294,Isabela Oliveira,Engenheiro de Dados,Tecnologia,Senior,BA,Outra,2026-03-15,,17641.17,PJ,Ativo
+COL-00295,Paulo Pereira,Analista de Logistica,Operacoes,Pleno,PR,Outra,2026-04-06,,12044.42,Terceirizado,Ativo
+COL-00296,Ana Alves,Cientista de Dados,Tecnologia,Senior,PR,Outra,2026-01-10,,23028.09,PJ,Ativo
+COL-00297,Joao Alves,Representante de Vendas,Comercial,Junior,DF,Outra,2025-09-26,,3970.13,Terceirizado,Ativo
+COL-00298,Joao Gomes,Recrutador,Recursos Humanos,Pleno,PE,Outra,2025-05-20,,7106.15,Estagio,Ativo
+COL-00299,Mariana Barbosa,Analista Financeiro,Financeiro,Pleno,AM,Outra,2025-09-09,,5063.48,Terceirizado,Ativo
+COL-00300,Gabriela Oliveira,Cientista de Dados,Tecnologia,Senior,PE,Outra,2026-02-26,,3556.8,CLT,Ativo
+COL-00301,Carla Martins,Coordenador Financeiro,Financeiro,Coordenacao,BA,Outra,2025-12-15,,14259.7,CLT,Ativo
+COL-00302,Karina Silva,Analista de Marketing,Marketing,Pleno,SP,Sao Paulo,2025-04-17,,9959.63,Terceirizado,Ativo
+COL-00303,Queila Pereira,Analista Financeiro,Financeiro,Pleno,DF,Outra,2026-03-09,,22729.9,Estagio,Ativo
+COL-00304,Elisa Pereira,Coordenador Financeiro,Financeiro,Coordenacao,SP,Sao Paulo,2025-05-15,,16661.23,PJ,Ativo
+COL-00305,Elisa Silva,Engenheiro de Dados,Tecnologia,Senior,AM,Outra,2025-08-11,,6451.68,CLT,Ativo
+COL-00306,Felipe Araujo,Desenvolvedor Backend,Tecnologia,Pleno,GO,Outra,2025-11-28,,15330.1,CLT,Ativo
+COL-00307,Gabriela Alves,Coordenador Financeiro,Financeiro,Coordenacao,PR,Outra,2025-05-11,,9951.67,Terceirizado,Ativo
+COL-00308,Sofia Lima,Recrutador,Recursos Humanos,Pleno,DF,Outra,2025-06-09,,5711.38,CLT,Ativo
+COL-00309,Diego Rodrigues,Assistente Administrativo,Administrativo,Junior,RJ,Outra,2025-09-27,,5794.22,PJ,Ativo
+COL-00310,Henrique Barbosa,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,PE,Outra,2025-07-02,,15138.1,CLT,Ativo
+COL-00311,Ana Barbosa,Executivo de Contas,Comercial,Pleno,MG,Outra,2026-05-12,,13123.71,CLT,Ativo
+COL-00312,Paulo Ribeiro,Business Partner de RH,Recursos Humanos,Senior,AM,Outra,2025-11-08,,5490.12,CLT,Ativo
+COL-00313,Henrique Oliveira,Analista de Logistica,Operacoes,Pleno,BA,Outra,2025-11-25,,15743.41,CLT,Ativo
+COL-00314,Joao Ferreira,Especialista em Marketing Digital,Marketing,Senior,RJ,Outra,2026-02-16,,11678.26,Estagio,Ativo
+COL-00315,Thiago Ferreira,Desenvolvedor Backend,Tecnologia,Pleno,RJ,Outra,2026-01-05,,21089.9,Estagio,Ativo
+COL-00316,Gabriela Rodrigues,Analista de Marketing,Marketing,Pleno,DF,Outra,2026-05-08,,3925.06,CLT,Ativo
+COL-00317,Felipe Gomes,Especialista em Marketing Digital,Marketing,Senior,MG,Outra,2025-12-19,,22360.67,CLT,Ativo
+COL-00318,Isabela Ferreira,Business Partner de RH,Recursos Humanos,Senior,BA,Outra,2025-07-25,2026-08-23,15876.57,PJ,Desligado
+COL-00319,Ana Pereira,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,MG,Outra,2025-07-08,,13715.96,CLT,Ativo
+COL-00320,Karina Alves,Analista de Marketing,Marketing,Pleno,GO,Outra,2026-02-06,,7013.53,Terceirizado,Ativo
+COL-00321,Karina Souza,Coordenador Financeiro,Financeiro,Coordenacao,RJ,Outra,2026-05-12,,4878.96,Terceirizado,Ativo
+COL-00322,Carla Pereira,Analista Financeiro,Financeiro,Pleno,PR,Outra,2025-10-18,,15203.96,CLT,Ativo
+COL-00323,Olivia Oliveira,Gerente de Dados,Tecnologia,Lideranca,GO,Outra,2025-07-28,,11011.4,CLT,Ativo
+COL-00324,Isabela Souza,Analista Financeiro,Financeiro,Pleno,SC,Outra,2026-02-26,,9920.9,CLT,Ativo
+COL-00325,Diego Araujo,Engenheiro de Dados,Tecnologia,Senior,MG,Outra,2025-08-30,,12669.33,PJ,Ativo
+COL-00326,Felipe Martins,Coordenador Financeiro,Financeiro,Coordenacao,GO,Outra,2025-09-07,,19644.79,Estagio,Ativo
+COL-00327,Nicolas Araujo,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,RJ,Outra,2025-08-04,,13861.5,CLT,Ativo
+COL-00328,Nicolas Ribeiro,Analista de Marketing,Marketing,Pleno,SP,Sao Paulo,2025-08-29,,21299.09,CLT,Ativo
+COL-00329,Sofia Barbosa,Coordenador Financeiro,Financeiro,Coordenacao,MG,Outra,2026-02-05,,2907.64,CLT,Ativo
+COL-00330,Queila Alves,Analista de Logistica,Operacoes,Pleno,BA,Outra,2025-04-26,,12960.51,Terceirizado,Ativo
+COL-00331,Carla Lima,Analista de Marketing,Marketing,Pleno,PR,Outra,2025-12-18,,18765.27,Terceirizado,Ativo
+COL-00332,Joao Souza,Analista Financeiro,Financeiro,Pleno,SC,Outra,2025-06-15,,16529.97,CLT,Ativo
+COL-00333,Olivia Araujo,Business Partner de RH,Recursos Humanos,Senior,AM,Outra,2025-06-30,,14892.07,Estagio,Ativo
+COL-00334,Mariana Oliveira,Analista de Marketing,Marketing,Pleno,MG,Outra,2026-05-09,,19545.0,CLT,Ativo
+COL-00335,Mariana Barbosa,Analista de Dados,Tecnologia,Pleno,RJ,Outra,2026-02-24,,17443.91,Estagio,Ativo
+COL-00336,Rafael Carvalho,Analista de RH,Recursos Humanos,Pleno,GO,Outra,2026-04-01,,19642.95,Terceirizado,Ativo
+COL-00337,Lucas Barbosa,Engenheiro de Dados,Tecnologia,Senior,DF,Outra,2025-12-28,,3893.13,PJ,Ativo
+COL-00338,Felipe Gomes,Engenheiro de Dados,Tecnologia,Senior,SC,Outra,2025-10-13,,14646.36,CLT,Ativo
+COL-00339,Henrique Lima,Analista Financeiro,Financeiro,Pleno,SC,Outra,2025-06-18,,5207.42,PJ,Ativo
+COL-00340,Henrique Ferreira,Analista Financeiro,Financeiro,Pleno,AM,Outra,2026-04-29,,10277.49,CLT,Ativo
+COL-00341,Carla Ferreira,Gerente Regional,Comercial,Lideranca,SP,Sao Paulo,2025-08-28,,10118.8,PJ,Ativo
+COL-00342,Rafael Gomes,Desenvolvedor Backend,Tecnologia,Pleno,AM,Outra,2025-12-05,,20298.04,CLT,Ativo
+COL-00343,Carla Souza,Representante de Vendas,Comercial,Junior,AM,Outra,2026-03-19,,21708.35,PJ,Ativo
+COL-00344,Diego Oliveira,Assistente Administrativo,Administrativo,Junior,RJ,Outra,2025-09-03,,8649.99,Terceirizado,Ativo
+COL-00345,Ana Rodrigues,Analista Financeiro,Financeiro,Pleno,DF,Outra,2025-12-31,,11630.58,Terceirizado,Ativo
+COL-00346,Nicolas Pereira,Gerente de Dados,Tecnologia,Lideranca,SC,Outra,2025-12-07,,18439.44,CLT,Ativo
+COL-00347,Henrique Araujo,Cientista de Dados,Tecnologia,Senior,PR,Outra,2025-04-20,,22885.91,Terceirizado,Ativo
+COL-00348,Karina Pereira,Recrutador,Recursos Humanos,Pleno,DF,Outra,2026-03-10,,15379.17,Terceirizado,Ativo
+COL-00349,Joao Carvalho,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,PE,Outra,2025-11-22,,5597.43,CLT,Ativo
+COL-00350,Joao Martins,Coordenador Financeiro,Financeiro,Coordenacao,SC,Outra,2025-12-12,,20724.89,CLT,Ativo
+COL-00351,Felipe Ribeiro,Analista de Marketing,Marketing,Pleno,GO,Outra,2025-07-03,,14148.71,CLT,Ativo
+COL-00352,Diego Silva,Gerente de Dados,Tecnologia,Lideranca,PR,Outra,2025-06-30,,23867.99,Estagio,Ativo
+COL-00353,Rafael Ribeiro,Representante de Vendas,Comercial,Junior,PR,Outra,2025-07-12,,3535.41,CLT,Ativo
+COL-00354,Rafael Oliveira,Gerente de Dados,Tecnologia,Lideranca,PE,Outra,2025-10-16,,14113.23,CLT,Ativo
+COL-00355,Elisa Pereira,Executivo de Contas,Comercial,Pleno,PR,Outra,2025-12-20,,22469.6,CLT,Ativo
+COL-00356,Joao Pereira,Analista de Logistica,Operacoes,Pleno,DF,Outra,2025-09-25,,21794.72,Estagio,Ativo
+COL-00357,Diego Ribeiro,Analista de Marketing,Marketing,Pleno,AM,Outra,2025-09-29,,12954.4,CLT,Ativo
+COL-00358,Mariana Carvalho,Desenvolvedor Backend,Tecnologia,Pleno,SP,Sao Paulo,2025-09-13,,20626.59,PJ,Ativo
+COL-00359,Gabriela Carvalho,Recrutador,Recursos Humanos,Pleno,GO,Outra,2025-05-07,,13960.4,CLT,Ativo
+COL-00360,Carla Lima,Cientista de Dados,Tecnologia,Senior,PE,Outra,2026-01-09,,11161.78,PJ,Ativo
+COL-00361,Lucas Alves,Analista de Logistica,Operacoes,Pleno,DF,Outra,2025-05-07,,5936.45,PJ,Ativo
+COL-00362,Lucas Ferreira,Representante de Vendas,Comercial,Junior,RS,Outra,2025-04-15,,9331.41,PJ,Ativo
+COL-00363,Olivia Ribeiro,Cientista de Dados,Tecnologia,Senior,AM,Outra,2025-07-28,,23843.06,PJ,Ativo
+COL-00364,Elisa Araujo,Gerente Regional,Comercial,Lideranca,BA,Outra,2026-04-17,,15248.22,CLT,Ativo
+COL-00365,Carla Barbosa,Especialista em Marketing Digital,Marketing,Senior,SC,Outra,2026-01-02,,23154.02,PJ,Ativo
+COL-00366,Rafael Pereira,Analista de RH,Recursos Humanos,Pleno,MG,Outra,2025-11-07,,17857.24,CLT,Ativo
+COL-00367,Paulo Silva,Executivo de Contas,Comercial,Pleno,CE,Outra,2025-09-04,,20243.34,CLT,Ativo
+COL-00368,Olivia Souza,Business Partner de RH,Recursos Humanos,Senior,CE,Outra,2025-12-17,,3369.01,CLT,Ativo
+COL-00369,Joao Alves,Especialista em Marketing Digital,Marketing,Senior,DF,Outra,2025-06-11,,6602.69,Terceirizado,Ativo
+COL-00370,Isabela Pereira,Analista de Dados,Tecnologia,Pleno,PR,Outra,2025-06-09,,23879.86,CLT,Ativo
+COL-00371,Sofia Alves,Representante de Vendas,Comercial,Junior,PE,Outra,2026-01-31,,21208.93,Terceirizado,Ativo
+COL-00372,Sofia Silva,Desenvolvedor Backend,Tecnologia,Pleno,CE,Outra,2025-10-17,,20719.94,CLT,Ativo
+COL-00373,Elisa Ferreira,Gerente de Dados,Tecnologia,Lideranca,PE,Outra,2025-09-19,,6262.15,CLT,Ativo
+COL-00374,Joao Lima,Representante de Vendas,Comercial,Junior,RS,Outra,2025-05-03,,16345.67,CLT,Ativo
+COL-00375,Thiago Martins,Assistente Administrativo,Administrativo,Junior,RJ,Outra,2026-05-05,,6343.28,CLT,Ativo
+COL-00376,Lucas Santos,Business Partner de RH,Recursos Humanos,Senior,DF,Outra,2025-08-25,,14129.71,CLT,Ativo
+COL-00377,Joao Ferreira,Analista de Dados,Tecnologia,Pleno,CE,Outra,2025-06-18,,19310.73,PJ,Ativo
+COL-00378,Elisa Lima,Assistente Administrativo,Administrativo,Junior,PR,Outra,2025-05-31,,7487.61,CLT,Ativo
+COL-00379,Queila Araujo,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,AM,Outra,2026-02-17,,14080.43,Estagio,Ativo
+COL-00380,Carla Santos,Desenvolvedor Backend,Tecnologia,Pleno,PE,Outra,2025-11-08,,20159.51,CLT,Ativo
+COL-00381,Elisa Araujo,Business Partner de RH,Recursos Humanos,Senior,SC,Outra,2026-03-28,,12169.08,Estagio,Ativo
+COL-00382,Joao Silva,Recrutador,Recursos Humanos,Pleno,AM,Outra,2025-07-06,,18582.56,CLT,Ativo
+COL-00383,Joao Oliveira,Gerente de Dados,Tecnologia,Lideranca,PR,Outra,2026-03-27,,7248.63,CLT,Ativo
+COL-00384,Paulo Martins,Desenvolvedor Backend,Tecnologia,Pleno,SP,Sao Paulo,2025-05-18,,11942.45,CLT,Ativo
+COL-00385,Paulo Santos,Analista de Logistica,Operacoes,Pleno,SP,Sao Paulo,2026-02-06,,22060.82,CLT,Ativo
+COL-00386,Diego Barbosa,Analista de Dados,Tecnologia,Pleno,RJ,Outra,2026-04-30,,15557.99,Estagio,Ativo
+COL-00387,Ana Santos,Assistente Administrativo,Administrativo,Junior,SC,Outra,2026-03-18,,5885.81,Terceirizado,Ativo
+COL-00388,Queila Martins,Representante de Vendas,Comercial,Junior,MG,Outra,2025-10-06,,18245.35,CLT,Ativo
+COL-00389,Ana Lima,Cientista de Dados,Tecnologia,Senior,GO,Outra,2025-05-29,,7400.36,CLT,Ativo
+COL-00390,Ana Ribeiro,Assistente Administrativo,Administrativo,Junior,CE,Outra,2026-04-30,,4892.14,CLT,Ativo
+COL-00391,Sofia Oliveira,Especialista em Marketing Digital,Marketing,Senior,AM,Outra,2025-10-13,,12120.92,CLT,Ativo
+COL-00392,Gabriela Lima,Representante de Vendas,Comercial,Junior,BA,Outra,2025-10-20,,7624.15,CLT,Ativo
+COL-00393,Diego Lima,Recrutador,Recursos Humanos,Pleno,PE,Outra,2025-06-11,,5681.34,CLT,Ativo
+COL-00394,Carla Ferreira,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,SP,Sao Paulo,2026-04-13,,13266.71,PJ,Ativo
+COL-00395,Henrique Lima,Business Partner de RH,Recursos Humanos,Senior,PE,Outra,2026-03-26,,11434.38,PJ,Ativo
+COL-00396,Lucas Oliveira,Cientista de Dados,Tecnologia,Senior,DF,Outra,2025-12-08,,3071.06,Terceirizado,Ativo
+COL-00397,Queila Gomes,Desenvolvedor Backend,Tecnologia,Pleno,PE,Outra,2025-10-28,,17142.2,CLT,Ativo
+COL-00398,Carla Ferreira,Desenvolvedor Backend,Tecnologia,Pleno,MG,Outra,2026-04-23,,23474.4,CLT,Ativo
+COL-00399,Nicolas Ribeiro,Executivo de Contas,Comercial,Pleno,PR,Outra,2025-06-10,,13381.13,Terceirizado,Ativo
+COL-00400,Mariana Ferreira,Analista de RH,Recursos Humanos,Pleno,PR,Outra,2026-05-01,,12887.52,Estagio,Ativo
+COL-00401,Elisa Martins,Especialista em Marketing Digital,Marketing,Senior,RS,Outra,2025-12-26,,12438.26,CLT,Ativo
+COL-00402,Elisa Silva,Especialista em Marketing Digital,Marketing,Senior,DF,Outra,2025-08-05,,4911.59,CLT,Ativo
+COL-00403,Felipe Alves,Especialista em Marketing Digital,Marketing,Senior,SP,Sao Paulo,2026-03-22,,15617.18,CLT,Ativo
+COL-00404,Queila Martins,Desenvolvedor Backend,Tecnologia,Pleno,RJ,Outra,2026-05-03,,13234.38,PJ,Ativo
+COL-00405,Isabela Lima,Especialista em Marketing Digital,Marketing,Senior,CE,Outra,2025-12-16,,10084.65,Estagio,Ativo
+COL-00406,Mariana Pereira,Engenheiro de Dados,Tecnologia,Senior,RJ,Outra,2025-11-15,,9468.65,PJ,Ativo
+COL-00407,Rafael Gomes,Engenheiro de Dados,Tecnologia,Senior,MG,Outra,2025-04-25,,21039.65,CLT,Ativo
+COL-00408,Elisa Rodrigues,Assistente Administrativo,Administrativo,Junior,BA,Outra,2025-12-16,,17973.33,PJ,Ativo
+COL-00409,Rafael Carvalho,Especialista em Marketing Digital,Marketing,Senior,CE,Outra,2026-03-12,,12760.15,Estagio,Ativo
+COL-00410,Isabela Pereira,Analista de Logistica,Operacoes,Pleno,BA,Outra,2025-05-07,,15330.16,PJ,Ativo
+COL-00411,Karina Silva,Representante de Vendas,Comercial,Junior,RS,Outra,2026-05-06,,3396.72,CLT,Ativo
+COL-00412,Ana Martins,Representante de Vendas,Comercial,Junior,GO,Outra,2026-04-23,,21696.47,CLT,Ativo
+COL-00413,Nicolas Ferreira,Gerente Regional,Comercial,Lideranca,SC,Outra,2025-10-02,,3996.72,CLT,Ativo
+COL-00414,Carla Araujo,Business Partner de RH,Recursos Humanos,Senior,RJ,Outra,2026-02-06,,9264.14,CLT,Ativo
+COL-00415,Nicolas Carvalho,Recrutador,Recursos Humanos,Pleno,PE,Outra,2025-04-28,,13712.91,PJ,Ativo
+COL-00416,Karina Alves,Especialista em Marketing Digital,Marketing,Senior,SP,Sao Paulo,2026-02-04,,14891.5,CLT,Ativo
+COL-00417,Gabriela Ferreira,Especialista em Marketing Digital,Marketing,Senior,AM,Outra,2025-05-30,,13330.71,Terceirizado,Ativo
+COL-00418,Gabriela Pereira,Business Partner de RH,Recursos Humanos,Senior,BA,Outra,2025-10-12,,16271.42,CLT,Ativo
+COL-00419,Isabela Silva,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,RS,Outra,2025-07-27,,9103.19,Estagio,Ativo
+COL-00420,Carla Ribeiro,Coordenador Financeiro,Financeiro,Coordenacao,AM,Outra,2026-02-22,,20696.76,CLT,Ativo
+COL-00421,Queila Pereira,Analista de RH,Recursos Humanos,Pleno,GO,Outra,2025-05-13,,11854.64,CLT,Ativo
+COL-00422,Joao Alves,Business Partner de RH,Recursos Humanos,Senior,PR,Outra,2025-12-23,,16865.28,CLT,Ativo
+COL-00423,Queila Pereira,Executivo de Contas,Comercial,Pleno,GO,Outra,2025-08-15,,17037.08,Estagio,Ativo
+COL-00424,Queila Araujo,Analista de Dados,Tecnologia,Pleno,AM,Outra,2026-02-24,,6754.63,PJ,Ativo
+COL-00425,Rafael Martins,Analista de Marketing,Marketing,Pleno,DF,Outra,2025-08-24,,15825.75,PJ,Ativo
+COL-00426,Lucas Pereira,Engenheiro de Dados,Tecnologia,Senior,PR,Outra,2026-01-01,,5932.17,CLT,Ativo
+COL-00427,Karina Araujo,Business Partner de RH,Recursos Humanos,Senior,BA,Outra,2025-11-17,,20400.54,CLT,Ativo
+COL-00428,Felipe Rodrigues,Gerente Regional,Comercial,Lideranca,RS,Outra,2025-08-23,,17361.32,CLT,Ativo
+COL-00429,Ana Souza,Desenvolvedor Backend,Tecnologia,Pleno,PR,Outra,2025-06-24,,19697.35,CLT,Ativo
+COL-00430,Bruno Souza,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,BA,Outra,2025-11-18,,6178.4,CLT,Ativo
+COL-00431,Bruno Ribeiro,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,DF,Outra,2025-07-08,,13099.85,CLT,Ativo
+COL-00432,Carla Barbosa,Recrutador,Recursos Humanos,Pleno,RS,Outra,2026-02-11,,23047.88,CLT,Ativo
+COL-00433,Elisa Souza,Cientista de Dados,Tecnologia,Senior,AM,Outra,2025-10-29,,5172.97,Terceirizado,Ativo
+COL-00434,Sofia Martins,Desenvolvedor Backend,Tecnologia,Pleno,DF,Outra,2026-01-01,,22548.98,CLT,Ativo
+COL-00435,Diego Martins,Cientista de Dados,Tecnologia,Senior,GO,Outra,2025-08-08,,19901.77,CLT,Ativo
+COL-00436,Henrique Barbosa,Executivo de Contas,Comercial,Pleno,AM,Outra,2026-04-27,,11764.82,CLT,Ativo
+COL-00437,Isabela Araujo,Analista de RH,Recursos Humanos,Pleno,BA,Outra,2025-11-20,,15297.0,PJ,Ativo
+COL-00438,Nicolas Pereira,Desenvolvedor Backend,Tecnologia,Pleno,CE,Outra,2025-09-18,,17274.06,CLT,Ativo
+COL-00439,Lucas Araujo,Gerente de Dados,Tecnologia,Lideranca,PE,Outra,2025-10-11,,9333.23,Terceirizado,Ativo
+COL-00440,Bruno Ribeiro,Engenheiro de Dados,Tecnologia,Senior,DF,Outra,2026-04-22,,22250.09,Terceirizado,Ativo
+COL-00441,Lucas Barbosa,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,RS,Outra,2025-10-22,,20019.71,CLT,Ativo
+COL-00442,Ana Barbosa,Coordenador Financeiro,Financeiro,Coordenacao,BA,Outra,2025-11-21,,23167.86,CLT,Ativo
+COL-00443,Felipe Barbosa,Coordenador Financeiro,Financeiro,Coordenacao,PR,Outra,2025-09-08,,12103.53,CLT,Ativo
+COL-00444,Carla Araujo,Gerente Regional,Comercial,Lideranca,RS,Outra,2025-04-26,,19324.48,PJ,Ativo
+COL-00445,Nicolas Barbosa,Gerente Regional,Comercial,Lideranca,AM,Outra,2025-09-26,,22273.18,CLT,Ativo
+COL-00446,Lucas Alves,Analista de RH,Recursos Humanos,Pleno,RJ,Outra,2025-12-24,,15564.86,Estagio,Ativo
+COL-00447,Bruno Gomes,Analista de Marketing,Marketing,Pleno,SP,Sao Paulo,2026-03-30,,16401.76,Terceirizado,Ativo
+COL-00448,Gabriela Gomes,Gerente de Dados,Tecnologia,Lideranca,BA,Outra,2025-04-10,,9277.61,Estagio,Ativo
+COL-00449,Elisa Araujo,Coordenador Financeiro,Financeiro,Coordenacao,AM,Outra,2025-12-29,,15393.14,PJ,Ativo
+COL-00450,Elisa Rodrigues,Recrutador,Recursos Humanos,Pleno,PE,Outra,2025-11-26,,6477.76,Estagio,Ativo
+COL-00451,Nicolas Ferreira,Business Partner de RH,Recursos Humanos,Senior,RJ,Outra,2025-07-19,,6656.05,PJ,Ativo
+COL-00452,Rafael Gomes,Coordenador Financeiro,Financeiro,Coordenacao,SP,Sao Paulo,2025-04-19,,15774.47,CLT,Ativo
+COL-00453,Felipe Silva,Analista de Marketing,Marketing,Pleno,RS,Outra,2025-07-19,,11301.94,PJ,Ativo
+COL-00454,Felipe Carvalho,Gerente de Dados,Tecnologia,Lideranca,SC,Outra,2025-05-24,,5287.83,Terceirizado,Ativo
+COL-00455,Diego Souza,Analista de Marketing,Marketing,Pleno,PE,Outra,2026-03-19,,17927.55,CLT,Ativo
+COL-00456,Paulo Alves,Analista de RH,Recursos Humanos,Pleno,AM,Outra,2025-09-03,,5560.23,CLT,Ativo
+COL-00457,Gabriela Alves,Business Partner de RH,Recursos Humanos,Senior,DF,Outra,2026-04-16,,6623.84,CLT,Ativo
+COL-00458,Henrique Ferreira,Coordenador Financeiro,Financeiro,Coordenacao,PE,Outra,2026-02-19,,15157.55,Terceirizado,Ativo
+COL-00459,Karina Ribeiro,Analista de Dados,Tecnologia,Pleno,MG,Outra,2025-12-05,,11228.16,CLT,Ativo
+COL-00460,Isabela Santos,Gerente Regional,Comercial,Lideranca,GO,Outra,2026-04-20,,4819.92,CLT,Ativo
+COL-00461,Thiago Ribeiro,Especialista em Marketing Digital,Marketing,Senior,GO,Outra,2025-10-07,,18662.73,CLT,Ativo
+COL-00462,Lucas Oliveira,Executivo de Contas,Comercial,Pleno,BA,Outra,2025-09-10,,23322.83,Estagio,Ativo
+COL-00463,Paulo Barbosa,Analista de RH,Recursos Humanos,Pleno,CE,Outra,2025-07-04,,9990.55,PJ,Ativo
+COL-00464,Isabela Santos,Analista de Logistica,Operacoes,Pleno,MG,Outra,2025-11-16,,9441.32,CLT,Ativo
+COL-00465,Nicolas Rodrigues,Analista de RH,Recursos Humanos,Pleno,SC,Outra,2026-04-26,,21939.2,CLT,Ativo
+COL-00466,Nicolas Barbosa,Analista de RH,Recursos Humanos,Pleno,SC,Outra,2025-12-29,,6297.66,Terceirizado,Ativo
+COL-00467,Olivia Silva,Gerente de Dados,Tecnologia,Lideranca,DF,Outra,2026-01-18,,6805.1,CLT,Ativo
+COL-00468,Felipe Ribeiro,Engenheiro de Dados,Tecnologia,Senior,RS,Outra,2025-12-05,,12703.22,CLT,Ativo
+COL-00469,Lucas Ribeiro,Especialista em Marketing Digital,Marketing,Senior,PE,Outra,2025-04-29,,14690.12,PJ,Ativo
+COL-00470,Carla Souza,Gerente de Dados,Tecnologia,Lideranca,SC,Outra,2025-06-11,,21205.27,CLT,Ativo
+COL-00471,Sofia Souza,Analista de Logistica,Operacoes,Pleno,GO,Outra,2025-08-26,,15171.2,CLT,Ativo
+COL-00472,Henrique Martins,Assistente Administrativo,Administrativo,Junior,RJ,Outra,2025-11-08,,13359.95,CLT,Ativo
+COL-00473,Diego Alves,Analista de Dados,Tecnologia,Pleno,DF,Outra,2025-09-01,,10719.44,CLT,Ativo
+COL-00474,Olivia Araujo,Gerente de Dados,Tecnologia,Lideranca,RJ,Outra,2025-04-23,,17803.38,PJ,Ativo
+COL-00475,Ana Ferreira,Analista de RH,Recursos Humanos,Pleno,DF,Outra,2026-02-07,,23359.13,Terceirizado,Ativo
+COL-00476,Sofia Oliveira,Analista de Marketing,Marketing,Pleno,AM,Outra,2025-09-22,,7280.98,CLT,Ativo
+COL-00477,Bruno Ribeiro,Business Partner de RH,Recursos Humanos,Senior,PR,Outra,2025-09-21,,4299.35,Estagio,Ativo
+COL-00478,Henrique Martins,Executivo de Contas,Comercial,Pleno,MG,Outra,2025-08-17,,21148.93,CLT,Ativo
+COL-00479,Mariana Rodrigues,Assistente Administrativo,Administrativo,Junior,PR,Outra,2025-10-24,,16519.96,Terceirizado,Ativo
+COL-00480,Joao Barbosa,Especialista em Marketing Digital,Marketing,Senior,AM,Outra,2025-11-16,,17321.19,CLT,Ativo

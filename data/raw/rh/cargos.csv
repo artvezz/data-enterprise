@@ -1,0 +1,19 @@
+cargo_id,descricao_cargo,area,senioridade,faixa_salarial_min,faixa_salarial_max
+CAR-001,Analista de Dados,Tecnologia,Pleno,4251.7,16984.8
+CAR-002,Engenheiro de Dados,Tecnologia,Senior,8649.2,21789.18
+CAR-003,Cientista de Dados,Tecnologia,Senior,6330.68,17071.49
+CAR-004,Desenvolvedor Backend,Tecnologia,Pleno,3258.26,19343.07
+CAR-005,Gerente de Dados,Tecnologia,Lideranca,3617.09,27513.05
+CAR-006,Assistente Administrativo,Administrativo,Junior,2661.89,12571.02
+CAR-007,Analista Financeiro,Financeiro,Pleno,3548.72,15087.22
+CAR-008,Coordenador Financeiro,Financeiro,Coordenacao,7475.97,31973.41
+CAR-009,Analista de RH,Recursos Humanos,Pleno,4239.37,14646.93
+CAR-010,Business Partner de RH,Recursos Humanos,Senior,3504.48,30465.73
+CAR-011,Recrutador,Recursos Humanos,Pleno,4319.26,28819.4
+CAR-012,Representante de Vendas,Comercial,Junior,2585.61,14760.14
+CAR-013,Executivo de Contas,Comercial,Pleno,7058.89,14052.84
+CAR-014,Gerente Regional,Comercial,Lideranca,3933.15,17023.87
+CAR-015,Analista de Marketing,Marketing,Pleno,3255.5,19395.84
+CAR-016,Especialista em Marketing Digital,Marketing,Senior,3147.1,14728.5
+CAR-017,Analista de Logistica,Operacoes,Pleno,2703.21,24474.16
+CAR-018,Supervisor de Centro de Distribuicao,Operacoes,Coordenacao,8829.1,12188.77

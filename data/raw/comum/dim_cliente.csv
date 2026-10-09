@@ -1,0 +1,601 @@
+cliente_id,razao_social,segmento,uf,cidade,canal,data_criacao,status_cliente
+CLI-00001,Alpha Com 001 LTDA,Corporativo Medio,AM,Distrito Federal,Licitacao,2021-06-21,Inativo
+CLI-00002,Vertex Tech 002 LTDA,Corporativo Grande,PR,Parana,Parceiro,2023-09-28,Ativo
+CLI-00003,Epsilon Log 003 LTDA,Corporativo Medio,PR,Santa Catarina,Direto,2020-01-15,Inativo
+CLI-00004,Beta Tech 004 LTDA,Pequeno Empresa,GO,Rio Grande do Sul,Direto,2024-02-25,Bloqueado
+CLI-00005,Beta Srv 005 LTDA,Corporativo Grande,CE,Rio Grande do Sul,E-commerce,2025-06-22,Ativo
+CLI-00006,Beta Ind 006 LTDA,Corporativo Medio,PR,Rio Grande do Sul,Direto,2021-08-11,Ativo
+CLI-00007,Omega Tech 007 LTDA,Governo,DF,Santa Catarina,Parceiro,2023-02-25,Ativo
+CLI-00008,Delta Corp 008 LTDA,Pequeno Empresa,AM,Distrito Federal,Direto,2025-10-31,Ativo
+CLI-00009,Aurora Corp 009 LTDA,Corporativo Medio,MG,Pernambuco,Licitacao,2022-01-10,Bloqueado
+CLI-00010,Delta Corp 010 LTDA,Pequeno Empresa,PR,Parana,Direto,2021-07-27,Ativo
+CLI-00011,Zeta Srv 011 LTDA,Pequeno Empresa,RJ,Parana,E-commerce,2021-05-20,Inativo
+CLI-00012,Omega Corp 012 LTDA,Governo,MG,Rio Grande do Sul,Parceiro,2021-10-07,Bloqueado
+CLI-00013,Aurora Tech 013 LTDA,Educacao,BA,Goias,Licitacao,2023-01-22,Ativo
+CLI-00014,Gamma Com 014 LTDA,Governo,RJ,Parana,Direto,2020-03-25,Ativo
+CLI-00015,Gamma Group 015 LTDA,Governo,GO,Rio de Janeiro,Licitacao,2023-04-13,Bloqueado
+CLI-00016,Sigma Com 016 LTDA,Pequeno Empresa,CE,Sao Paulo,Direto,2025-01-08,Ativo
+CLI-00017,Zeta Ind 017 LTDA,Pequeno Empresa,BA,Minas Gerais,Licitacao,2019-01-14,Ativo
+CLI-00018,Aurora Group 018 LTDA,Corporativo Medio,CE,Rio de Janeiro,E-commerce,2024-09-10,Bloqueado
+CLI-00019,Delta Log 019 LTDA,Pequeno Empresa,PR,Minas Gerais,Direto,2025-09-19,Ativo
+CLI-00020,Sigma Ind 020 LTDA,Corporativo Grande,SC,Parana,E-commerce,2021-09-07,Ativo
+CLI-00021,Delta Com 021 LTDA,Corporativo Grande,RJ,Amazonas,Licitacao,2019-10-11,Bloqueado
+CLI-00022,Gamma Log 022 LTDA,Governo,CE,Minas Gerais,E-commerce,2024-12-01,Bloqueado
+CLI-00023,Omega Log 023 LTDA,Educacao,PR,Amazonas,Parceiro,2022-06-30,Inativo
+CLI-00024,Zeta Srv 024 LTDA,Educacao,PE,Rio de Janeiro,Parceiro,2021-07-09,Ativo
+CLI-00025,Zeta Ind 025 LTDA,Educacao,CE,Parana,Parceiro,2019-01-30,Ativo
+CLI-00026,Alpha Log 026 LTDA,Corporativo Grande,SP,Santa Catarina,Direto,2024-10-06,Ativo
+CLI-00027,Epsilon Corp 027 LTDA,Governo,PR,Ceara,Parceiro,2025-05-27,Bloqueado
+CLI-00028,Sigma Log 028 LTDA,Governo,PR,Bahia,Parceiro,2020-01-22,Ativo
+CLI-00029,Omega Tech 029 LTDA,Governo,BA,Pernambuco,Direto,2020-02-08,Ativo
+CLI-00030,Omega Corp 030 LTDA,Pequeno Empresa,PR,Rio de Janeiro,Parceiro,2021-02-23,Ativo
+CLI-00031,Aurora Srv 031 LTDA,Corporativo Medio,BA,Minas Gerais,E-commerce,2024-03-09,Ativo
+CLI-00032,Beta Srv 032 LTDA,Educacao,RJ,Sao Paulo,Direto,2020-01-18,Ativo
+CLI-00033,Gamma Srv 033 LTDA,Governo,PE,Parana,Licitacao,2019-08-29,Ativo
+CLI-00034,Omega Ind 034 LTDA,Governo,RS,Parana,Licitacao,2022-03-14,Inativo
+CLI-00035,Aurora Corp 035 LTDA,Governo,MG,Parana,E-commerce,2021-06-10,Ativo
+CLI-00036,Vertex Corp 036 LTDA,Educacao,SP,Amazonas,E-commerce,2019-08-23,Ativo
+CLI-00037,Vertex Srv 037 LTDA,Educacao,CE,Minas Gerais,Direto,2024-09-11,Ativo
+CLI-00038,Gamma Ind 038 LTDA,Educacao,RJ,Distrito Federal,Parceiro,2023-07-12,Ativo
+CLI-00039,Vertex Log 039 LTDA,Educacao,GO,Sao Paulo,Direto,2023-09-14,Bloqueado
+CLI-00040,Vertex Com 040 LTDA,Pequeno Empresa,RS,Parana,E-commerce,2021-09-04,Ativo
+CLI-00041,Omega Log 041 LTDA,Pequeno Empresa,PE,Santa Catarina,Direto,2019-02-08,Inativo
+CLI-00042,Vertex Com 042 LTDA,Corporativo Grande,RJ,Ceara,Parceiro,2024-09-03,Ativo
+CLI-00043,Gamma Tech 043 LTDA,Corporativo Grande,PR,Santa Catarina,E-commerce,2020-10-08,Inativo
+CLI-00044,Aurora Corp 044 LTDA,Pequeno Empresa,GO,Parana,Direto,2025-03-21,Ativo
+CLI-00045,Beta Log 045 LTDA,Pequeno Empresa,RJ,Rio de Janeiro,Parceiro,2022-01-20,Ativo
+CLI-00046,Vertex Log 046 LTDA,Pequeno Empresa,PR,Distrito Federal,E-commerce,2024-09-01,Inativo
+CLI-00047,Epsilon Group 047 LTDA,Corporativo Grande,RJ,Distrito Federal,Licitacao,2022-02-07,Ativo
+CLI-00048,Alpha Tech 048 LTDA,Corporativo Medio,DF,Rio Grande do Sul,Parceiro,2023-12-15,Bloqueado
+CLI-00049,Omega Com 049 LTDA,Corporativo Grande,RJ,Rio de Janeiro,Parceiro,2025-02-12,Ativo
+CLI-00050,Zeta Com 050 LTDA,Educacao,MG,Bahia,Parceiro,2019-06-21,Ativo
+CLI-00051,Zeta Group 051 LTDA,Corporativo Grande,SC,Parana,Parceiro,2020-02-26,Ativo
+CLI-00052,Aurora Group 052 LTDA,Governo,GO,Amazonas,Parceiro,2021-08-27,Ativo
+CLI-00053,Gamma Srv 053 LTDA,Corporativo Grande,MG,Amazonas,E-commerce,2023-08-14,Ativo
+CLI-00054,Epsilon Log 054 LTDA,Corporativo Grande,BA,Sao Paulo,Licitacao,2021-06-30,Ativo
+CLI-00055,Sigma Tech 055 LTDA,Pequeno Empresa,PR,Parana,Parceiro,2019-04-07,Ativo
+CLI-00056,Omega Tech 056 LTDA,Pequeno Empresa,RJ,Parana,E-commerce,2022-12-09,Bloqueado
+CLI-00057,Omega Corp 057 LTDA,Educacao,SC,Sao Paulo,Direto,2021-12-05,Ativo
+CLI-00058,Vertex Tech 058 LTDA,Corporativo Grande,RJ,Goias,Licitacao,2022-11-16,Ativo
+CLI-00059,Omega Com 059 LTDA,Educacao,RJ,Bahia,Parceiro,2021-11-09,Ativo
+CLI-00060,Omega Ind 060 LTDA,Educacao,PR,Ceara,Parceiro,2023-01-31,Inativo
+CLI-00061,Beta Corp 061 LTDA,Pequeno Empresa,GO,Santa Catarina,Direto,2022-05-15,Bloqueado
+CLI-00062,Epsilon Corp 062 LTDA,Governo,SC,Bahia,E-commerce,2025-03-20,Ativo
+CLI-00063,Delta Srv 063 LTDA,Governo,DF,Amazonas,Parceiro,2025-05-20,Ativo
+CLI-00064,Omega Com 064 LTDA,Corporativo Grande,RS,Rio Grande do Sul,Parceiro,2023-10-27,Bloqueado
+CLI-00065,Vertex Corp 065 LTDA,Pequeno Empresa,PE,Pernambuco,Licitacao,2021-05-25,Bloqueado
+CLI-00066,Sigma Group 066 LTDA,Corporativo Medio,DF,Rio de Janeiro,E-commerce,2024-10-12,Bloqueado
+CLI-00067,Zeta Ind 067 LTDA,Corporativo Medio,DF,Rio Grande do Sul,Parceiro,2021-03-26,Ativo
+CLI-00068,Alpha Ind 068 LTDA,Corporativo Medio,PE,Goias,Direto,2024-02-09,Inativo
+CLI-00069,Vertex Log 069 LTDA,Governo,PE,Bahia,Parceiro,2020-08-27,Ativo
+CLI-00070,Beta Group 070 LTDA,Governo,PR,Minas Gerais,Licitacao,2019-07-25,Bloqueado
+CLI-00071,Delta Group 071 LTDA,Corporativo Grande,PE,Minas Gerais,Licitacao,2024-12-15,Bloqueado
+CLI-00072,Vertex Tech 072 LTDA,Governo,GO,Amazonas,Licitacao,2025-02-22,Inativo
+CLI-00073,Gamma Corp 073 LTDA,Governo,PE,Rio Grande do Sul,Parceiro,2022-02-09,Bloqueado
+CLI-00074,Sigma Corp 074 LTDA,Corporativo Medio,RS,Pernambuco,Direto,2022-03-16,Ativo
+CLI-00075,Epsilon Tech 075 LTDA,Pequeno Empresa,CE,Rio de Janeiro,Parceiro,2020-09-09,Ativo
+CLI-00076,Omega Corp 076 LTDA,Corporativo Medio,AM,Parana,Direto,2023-08-27,Inativo
+CLI-00077,Zeta Com 077 LTDA,Governo,BA,Sao Paulo,Parceiro,2023-09-17,Inativo
+CLI-00078,Vertex Corp 078 LTDA,Corporativo Grande,PR,Goias,Licitacao,2024-05-07,Ativo
+CLI-00079,Zeta Tech 079 LTDA,Governo,BA,Ceara,Parceiro,2024-06-22,Ativo
+CLI-00080,Epsilon Srv 080 LTDA,Governo,SP,Bahia,E-commerce,2023-07-15,Ativo
+CLI-00081,Sigma Log 081 LTDA,Educacao,CE,Sao Paulo,Licitacao,2025-08-21,Bloqueado
+CLI-00082,Alpha Ind 082 LTDA,Governo,MG,Pernambuco,Parceiro,2019-07-25,Ativo
+CLI-00083,Omega Tech 083 LTDA,Corporativo Medio,PE,Santa Catarina,E-commerce,2023-04-02,Ativo
+CLI-00084,Omega Tech 084 LTDA,Corporativo Grande,PE,Sao Paulo,Direto,2022-12-04,Ativo
+CLI-00085,Beta Group 085 LTDA,Corporativo Grande,PR,Sao Paulo,Parceiro,2021-03-27,Ativo
+CLI-00086,Vertex Log 086 LTDA,Corporativo Medio,MG,Pernambuco,Direto,2025-04-29,Ativo
+CLI-00087,Sigma Corp 087 LTDA,Pequeno Empresa,PR,Santa Catarina,Parceiro,2025-10-17,Bloqueado
+CLI-00088,Beta Group 088 LTDA,Corporativo Medio,RS,Rio de Janeiro,Direto,2022-07-01,Bloqueado
+CLI-00089,Omega Srv 089 LTDA,Corporativo Medio,RJ,Goias,Parceiro,2020-02-22,Ativo
+CLI-00090,Vertex Group 090 LTDA,Corporativo Grande,PR,Goias,Direto,2022-11-23,Bloqueado
+CLI-00091,Omega Corp 091 LTDA,Pequeno Empresa,RJ,Ceara,E-commerce,2019-02-21,Inativo
+CLI-00092,Sigma Ind 092 LTDA,Governo,SC,Distrito Federal,Licitacao,2020-09-18,Inativo
+CLI-00093,Gamma Corp 093 LTDA,Educacao,DF,Rio Grande do Sul,Licitacao,2024-03-19,Inativo
+CLI-00094,Vertex Tech 094 LTDA,Pequeno Empresa,PR,Rio de Janeiro,E-commerce,2024-01-21,Ativo
+CLI-00095,Sigma Com 095 LTDA,Educacao,DF,Bahia,E-commerce,2019-04-28,Inativo
+CLI-00096,Zeta Log 096 LTDA,Governo,PR,Santa Catarina,E-commerce,2022-10-26,Ativo
+CLI-00097,Vertex Corp 097 LTDA,Pequeno Empresa,CE,Sao Paulo,Parceiro,2019-12-17,Ativo
+CLI-00098,Omega Srv 098 LTDA,Educacao,PR,Parana,Licitacao,2024-07-03,Inativo
+CLI-00099,Alpha Ind 099 LTDA,Pequeno Empresa,PR,Bahia,Parceiro,2022-06-08,Bloqueado
+CLI-00100,Zeta Srv 100 LTDA,Educacao,CE,Santa Catarina,Licitacao,2025-03-04,Ativo
+CLI-00101,Zeta Corp 101 LTDA,Governo,RS,Rio Grande do Sul,E-commerce,2021-08-02,Ativo
+CLI-00102,Delta Tech 102 LTDA,Corporativo Grande,AM,Ceara,Parceiro,2021-02-23,Ativo
+CLI-00103,Sigma Tech 103 LTDA,Educacao,PR,Ceara,E-commerce,2020-02-16,Ativo
+CLI-00104,Epsilon Log 104 LTDA,Pequeno Empresa,MG,Rio Grande do Sul,Direto,2024-12-27,Ativo
+CLI-00105,Epsilon Ind 105 LTDA,Corporativo Grande,CE,Rio Grande do Sul,Parceiro,2024-07-03,Ativo
+CLI-00106,Alpha Com 106 LTDA,Pequeno Empresa,PE,Pernambuco,Licitacao,2022-10-27,Ativo
+CLI-00107,Alpha Tech 107 LTDA,Governo,RJ,Rio de Janeiro,Licitacao,2024-07-07,Ativo
+CLI-00108,Vertex Corp 108 LTDA,Corporativo Grande,MG,Minas Gerais,E-commerce,2019-12-15,Ativo
+CLI-00109,Beta Com 109 LTDA,Governo,GO,Goias,Parceiro,2024-11-10,Inativo
+CLI-00110,Sigma Srv 110 LTDA,Pequeno Empresa,GO,Bahia,E-commerce,2025-05-18,Bloqueado
+CLI-00111,Alpha Com 111 LTDA,Corporativo Grande,PR,Parana,Parceiro,2021-12-19,Ativo
+CLI-00112,Gamma Log 112 LTDA,Corporativo Medio,CE,Rio de Janeiro,Parceiro,2019-01-11,Inativo
+CLI-00113,Sigma Corp 113 LTDA,Educacao,PE,Rio Grande do Sul,Direto,2021-08-06,Ativo
+CLI-00114,Epsilon Corp 114 LTDA,Governo,RJ,Distrito Federal,Parceiro,2021-12-19,Bloqueado
+CLI-00115,Delta Srv 115 LTDA,Corporativo Grande,CE,Parana,Parceiro,2021-12-24,Ativo
+CLI-00116,Beta Ind 116 LTDA,Corporativo Medio,PR,Rio Grande do Sul,E-commerce,2023-12-04,Ativo
+CLI-00117,Sigma Corp 117 LTDA,Pequeno Empresa,AM,Bahia,E-commerce,2024-08-11,Bloqueado
+CLI-00118,Sigma Srv 118 LTDA,Corporativo Grande,GO,Sao Paulo,Licitacao,2022-08-13,Bloqueado
+CLI-00119,Epsilon Ind 119 LTDA,Corporativo Grande,PR,Distrito Federal,Direto,2022-01-08,Bloqueado
+CLI-00120,Alpha Group 120 LTDA,Corporativo Medio,PE,Ceara,Licitacao,2022-02-13,Ativo
+CLI-00121,Vertex Srv 121 LTDA,Governo,RJ,Pernambuco,E-commerce,2023-07-31,Ativo
+CLI-00122,Zeta Corp 122 LTDA,Corporativo Grande,MG,Santa Catarina,Licitacao,2024-07-22,Ativo
+CLI-00123,Omega Group 123 LTDA,Educacao,SP,Pernambuco,Direto,2022-07-12,Ativo
+CLI-00124,Zeta Ind 124 LTDA,Governo,CE,Sao Paulo,Licitacao,2023-08-20,Ativo
+CLI-00125,Delta Com 125 LTDA,Pequeno Empresa,GO,Parana,Licitacao,2023-12-16,Ativo
+CLI-00126,Delta Tech 126 LTDA,Educacao,MG,Rio Grande do Sul,Licitacao,2024-06-08,Ativo
+CLI-00127,Alpha Corp 127 LTDA,Educacao,PR,Parana,Parceiro,2022-06-26,Bloqueado
+CLI-00128,Alpha Com 128 LTDA,Governo,RJ,Parana,Direto,2024-03-05,Ativo
+CLI-00129,Gamma Srv 129 LTDA,Pequeno Empresa,CE,Amazonas,E-commerce,2023-08-29,Inativo
+CLI-00130,Sigma Log 130 LTDA,Governo,CE,Minas Gerais,Licitacao,2021-02-19,Bloqueado
+CLI-00131,Aurora Corp 131 LTDA,Corporativo Medio,RJ,Rio Grande do Sul,Licitacao,2022-10-24,Bloqueado
+CLI-00132,Epsilon Group 132 LTDA,Corporativo Grande,RS,Amazonas,E-commerce,2025-08-01,Bloqueado
+CLI-00133,Sigma Group 133 LTDA,Corporativo Medio,PE,Ceara,Licitacao,2022-11-14,Ativo
+CLI-00134,Aurora Group 134 LTDA,Educacao,BA,Pernambuco,E-commerce,2021-02-11,Ativo
+CLI-00135,Vertex Srv 135 LTDA,Corporativo Medio,PR,Bahia,Direto,2022-07-27,Inativo
+CLI-00136,Omega Srv 136 LTDA,Corporativo Medio,PE,Sao Paulo,Parceiro,2024-08-19,Bloqueado
+CLI-00137,Zeta Group 137 LTDA,Corporativo Grande,PE,Rio de Janeiro,Licitacao,2019-03-04,Ativo
+CLI-00138,Omega Group 138 LTDA,Corporativo Medio,RJ,Pernambuco,E-commerce,2022-10-18,Bloqueado
+CLI-00139,Omega Corp 139 LTDA,Corporativo Grande,SC,Distrito Federal,Licitacao,2022-07-21,Inativo
+CLI-00140,Aurora Ind 140 LTDA,Educacao,RJ,Parana,E-commerce,2021-07-20,Ativo
+CLI-00141,Omega Ind 141 LTDA,Corporativo Grande,PE,Minas Gerais,E-commerce,2019-04-29,Ativo
+CLI-00142,Zeta Group 142 LTDA,Corporativo Grande,RS,Santa Catarina,E-commerce,2023-10-31,Ativo
+CLI-00143,Delta Com 143 LTDA,Governo,GO,Distrito Federal,Parceiro,2020-11-27,Ativo
+CLI-00144,Beta Com 144 LTDA,Governo,GO,Distrito Federal,Parceiro,2024-07-31,Bloqueado
+CLI-00145,Gamma Log 145 LTDA,Governo,DF,Rio Grande do Sul,Licitacao,2021-11-11,Ativo
+CLI-00146,Sigma Tech 146 LTDA,Educacao,MG,Rio de Janeiro,Licitacao,2022-11-16,Bloqueado
+CLI-00147,Epsilon Corp 147 LTDA,Governo,AM,Rio Grande do Sul,Licitacao,2022-05-22,Ativo
+CLI-00148,Omega Group 148 LTDA,Governo,RJ,Parana,Licitacao,2025-05-31,Ativo
+CLI-00149,Vertex Tech 149 LTDA,Pequeno Empresa,SP,Distrito Federal,Licitacao,2022-01-29,Ativo
+CLI-00150,Vertex Group 150 LTDA,Corporativo Grande,GO,Amazonas,Licitacao,2022-03-18,Ativo
+CLI-00151,Vertex Group 151 LTDA,Pequeno Empresa,PR,Distrito Federal,Parceiro,2021-10-23,Ativo
+CLI-00152,Beta Corp 152 LTDA,Corporativo Grande,RS,Parana,Licitacao,2019-05-17,Bloqueado
+CLI-00153,Zeta Corp 153 LTDA,Corporativo Medio,RJ,Rio Grande do Sul,E-commerce,2023-08-29,Ativo
+CLI-00154,Delta Log 154 LTDA,Educacao,SC,Ceara,E-commerce,2020-11-04,Ativo
+CLI-00155,Sigma Group 155 LTDA,Pequeno Empresa,AM,Santa Catarina,Direto,2024-04-02,Ativo
+CLI-00156,Gamma Group 156 LTDA,Corporativo Medio,DF,Amazonas,Licitacao,2025-04-01,Ativo
+CLI-00157,Beta Group 157 LTDA,Governo,SP,Rio Grande do Sul,Direto,2024-02-06,Ativo
+CLI-00158,Epsilon Com 158 LTDA,Governo,DF,Santa Catarina,Direto,2021-08-15,Inativo
+CLI-00159,Alpha Com 159 LTDA,Educacao,SC,Goias,Parceiro,2019-09-16,Inativo
+CLI-00160,Epsilon Corp 160 LTDA,Governo,RJ,Minas Gerais,Direto,2019-06-02,Ativo
+CLI-00161,Sigma Ind 161 LTDA,Corporativo Grande,PR,Ceara,Parceiro,2023-05-11,Inativo
+CLI-00162,Zeta Corp 162 LTDA,Educacao,BA,Goias,Parceiro,2023-08-27,Ativo
+CLI-00163,Sigma Com 163 LTDA,Governo,RS,Sao Paulo,E-commerce,2021-06-08,Inativo
+CLI-00164,Sigma Log 164 LTDA,Pequeno Empresa,RJ,Distrito Federal,E-commerce,2025-02-08,Ativo
+CLI-00165,Alpha Srv 165 LTDA,Pequeno Empresa,PR,Rio de Janeiro,Licitacao,2020-01-11,Ativo
+CLI-00166,Vertex Ind 166 LTDA,Corporativo Grande,PR,Santa Catarina,Parceiro,2020-05-30,Bloqueado
+CLI-00167,Delta Ind 167 LTDA,Educacao,PR,Goias,Parceiro,2021-08-12,Ativo
+CLI-00168,Gamma Group 168 LTDA,Educacao,SP,Rio Grande do Sul,Parceiro,2020-06-16,Bloqueado
+CLI-00169,Epsilon Group 169 LTDA,Corporativo Medio,RJ,Distrito Federal,Direto,2020-06-23,Ativo
+CLI-00170,Zeta Group 170 LTDA,Corporativo Medio,GO,Santa Catarina,Direto,2020-12-14,Ativo
+CLI-00171,Alpha Log 171 LTDA,Governo,CE,Rio de Janeiro,Direto,2024-05-04,Inativo
+CLI-00172,Zeta Com 172 LTDA,Educacao,RJ,Pernambuco,Parceiro,2019-06-27,Bloqueado
+CLI-00173,Epsilon Srv 173 LTDA,Corporativo Grande,SP,Pernambuco,Licitacao,2023-10-13,Ativo
+CLI-00174,Sigma Corp 174 LTDA,Governo,RJ,Rio de Janeiro,E-commerce,2025-10-27,Ativo
+CLI-00175,Beta Log 175 LTDA,Pequeno Empresa,GO,Distrito Federal,E-commerce,2023-04-10,Bloqueado
+CLI-00176,Aurora Tech 176 LTDA,Governo,CE,Goias,Licitacao,2020-02-11,Ativo
+CLI-00177,Aurora Corp 177 LTDA,Corporativo Medio,BA,Pernambuco,Parceiro,2023-08-22,Ativo
+CLI-00178,Sigma Srv 178 LTDA,Governo,AM,Rio de Janeiro,E-commerce,2023-10-15,Ativo
+CLI-00179,Epsilon Tech 179 LTDA,Corporativo Medio,DF,Pernambuco,Direto,2020-01-09,Ativo
+CLI-00180,Beta Srv 180 LTDA,Corporativo Grande,AM,Amazonas,E-commerce,2020-06-16,Bloqueado
+CLI-00181,Alpha Com 181 LTDA,Educacao,CE,Santa Catarina,Direto,2023-08-10,Ativo
+CLI-00182,Omega Group 182 LTDA,Corporativo Grande,RS,Goias,E-commerce,2022-12-11,Ativo
+CLI-00183,Vertex Com 183 LTDA,Corporativo Medio,MG,Distrito Federal,Licitacao,2021-07-07,Ativo
+CLI-00184,Zeta Group 184 LTDA,Educacao,SC,Rio de Janeiro,E-commerce,2025-06-09,Ativo
+CLI-00185,Omega Group 185 LTDA,Educacao,PR,Goias,Direto,2025-10-30,Ativo
+CLI-00186,Alpha Log 186 LTDA,Pequeno Empresa,AM,Parana,E-commerce,2022-10-23,Ativo
+CLI-00187,Alpha Log 187 LTDA,Corporativo Medio,GO,Distrito Federal,Licitacao,2019-10-13,Ativo
+CLI-00188,Alpha Ind 188 LTDA,Educacao,PR,Bahia,Licitacao,2024-02-02,Ativo
+CLI-00189,Gamma Tech 189 LTDA,Pequeno Empresa,AM,Santa Catarina,Direto,2019-08-04,Ativo
+CLI-00190,Gamma Group 190 LTDA,Educacao,SP,Distrito Federal,Direto,2022-01-19,Inativo
+CLI-00191,Omega Srv 191 LTDA,Educacao,PE,Bahia,E-commerce,2021-06-01,Bloqueado
+CLI-00192,Beta Tech 192 LTDA,Governo,RJ,Rio Grande do Sul,Licitacao,2024-11-28,Ativo
+CLI-00193,Alpha Log 193 LTDA,Governo,GO,Sao Paulo,Direto,2021-04-17,Ativo
+CLI-00194,Delta Group 194 LTDA,Corporativo Medio,PR,Rio Grande do Sul,E-commerce,2022-09-05,Ativo
+CLI-00195,Alpha Srv 195 LTDA,Governo,MG,Minas Gerais,Licitacao,2024-12-21,Ativo
+CLI-00196,Aurora Com 196 LTDA,Pequeno Empresa,RJ,Bahia,Direto,2023-11-22,Ativo
+CLI-00197,Sigma Ind 197 LTDA,Pequeno Empresa,GO,Bahia,Licitacao,2023-09-07,Ativo
+CLI-00198,Beta Srv 198 LTDA,Corporativo Grande,SC,Minas Gerais,Licitacao,2023-01-22,Ativo
+CLI-00199,Omega Group 199 LTDA,Corporativo Grande,PR,Bahia,Licitacao,2024-11-16,Ativo
+CLI-00200,Omega Group 200 LTDA,Pequeno Empresa,AM,Santa Catarina,Parceiro,2022-09-26,Ativo
+CLI-00201,Beta Com 201 LTDA,Corporativo Grande,CE,Ceara,Parceiro,2022-12-02,Ativo
+CLI-00202,Gamma Log 202 LTDA,Corporativo Grande,MG,Rio Grande do Sul,Parceiro,2020-12-11,Bloqueado
+CLI-00203,Gamma Group 203 LTDA,Corporativo Grande,MG,Parana,Licitacao,2024-03-15,Bloqueado
+CLI-00204,Vertex Srv 204 LTDA,Educacao,DF,Distrito Federal,E-commerce,2022-07-18,Ativo
+CLI-00205,Sigma Ind 205 LTDA,Governo,PE,Distrito Federal,E-commerce,2022-01-30,Bloqueado
+CLI-00206,Alpha Tech 206 LTDA,Educacao,RJ,Rio Grande do Sul,Licitacao,2024-01-26,Ativo
+CLI-00207,Alpha Tech 207 LTDA,Pequeno Empresa,RJ,Distrito Federal,Direto,2025-08-30,Bloqueado
+CLI-00208,Omega Srv 208 LTDA,Educacao,CE,Parana,Direto,2024-01-17,Bloqueado
+CLI-00209,Delta Tech 209 LTDA,Educacao,PE,Ceara,Parceiro,2019-09-11,Inativo
+CLI-00210,Beta Group 210 LTDA,Pequeno Empresa,AM,Rio de Janeiro,Parceiro,2019-06-10,Ativo
+CLI-00211,Sigma Srv 211 LTDA,Educacao,CE,Goias,Parceiro,2023-01-30,Ativo
+CLI-00212,Epsilon Srv 212 LTDA,Governo,PR,Santa Catarina,Direto,2022-10-02,Ativo
+CLI-00213,Zeta Ind 213 LTDA,Educacao,DF,Bahia,E-commerce,2021-10-29,Bloqueado
+CLI-00214,Gamma Tech 214 LTDA,Corporativo Grande,GO,Distrito Federal,Parceiro,2022-12-03,Ativo
+CLI-00215,Omega Log 215 LTDA,Educacao,AM,Rio de Janeiro,E-commerce,2025-04-08,Inativo
+CLI-00216,Zeta Group 216 LTDA,Corporativo Medio,DF,Amazonas,Direto,2023-10-01,Bloqueado
+CLI-00217,Zeta Ind 217 LTDA,Pequeno Empresa,RS,Minas Gerais,Parceiro,2022-10-31,Inativo
+CLI-00218,Delta Log 218 LTDA,Corporativo Medio,MG,Rio de Janeiro,E-commerce,2020-02-19,Bloqueado
+CLI-00219,Aurora Group 219 LTDA,Educacao,SP,Distrito Federal,E-commerce,2020-06-20,Bloqueado
+CLI-00220,Omega Log 220 LTDA,Corporativo Medio,MG,Amazonas,Parceiro,2023-11-28,Ativo
+CLI-00221,Omega Tech 221 LTDA,Corporativo Medio,PE,Goias,E-commerce,2024-01-13,Ativo
+CLI-00222,Aurora Log 222 LTDA,Pequeno Empresa,PR,Parana,Licitacao,2021-03-05,Ativo
+CLI-00223,Vertex Srv 223 LTDA,Governo,PR,Rio Grande do Sul,Licitacao,2024-08-21,Bloqueado
+CLI-00224,Omega Log 224 LTDA,Corporativo Medio,PR,Goias,Parceiro,2021-10-21,Ativo
+CLI-00225,Sigma Group 225 LTDA,Pequeno Empresa,CE,Rio de Janeiro,Direto,2022-03-13,Ativo
+CLI-00226,Gamma Tech 226 LTDA,Governo,CE,Minas Gerais,Licitacao,2020-01-11,Ativo
+CLI-00227,Sigma Tech 227 LTDA,Corporativo Grande,BA,Sao Paulo,Licitacao,2024-08-18,Ativo
+CLI-00228,Delta Srv 228 LTDA,Corporativo Grande,SC,Parana,Direto,2022-07-29,Ativo
+CLI-00229,Zeta Group 229 LTDA,Corporativo Medio,MG,Sao Paulo,E-commerce,2024-04-19,Ativo
+CLI-00230,Sigma Srv 230 LTDA,Educacao,SP,Rio de Janeiro,Direto,2021-11-14,Ativo
+CLI-00231,Gamma Com 231 LTDA,Educacao,CE,Bahia,Direto,2022-03-26,Ativo
+CLI-00232,Epsilon Ind 232 LTDA,Corporativo Grande,PR,Bahia,Licitacao,2019-09-15,Ativo
+CLI-00233,Sigma Com 233 LTDA,Educacao,SP,Distrito Federal,Parceiro,2020-08-11,Ativo
+CLI-00234,Omega Ind 234 LTDA,Educacao,SC,Parana,Licitacao,2021-02-06,Ativo
+CLI-00235,Aurora Tech 235 LTDA,Corporativo Grande,CE,Ceara,Direto,2023-05-19,Inativo
+CLI-00236,Alpha Corp 236 LTDA,Governo,SC,Rio Grande do Sul,Direto,2023-01-02,Ativo
+CLI-00237,Zeta Log 237 LTDA,Corporativo Grande,PR,Goias,E-commerce,2020-06-30,Ativo
+CLI-00238,Zeta Com 238 LTDA,Pequeno Empresa,DF,Minas Gerais,Licitacao,2024-05-14,Ativo
+CLI-00239,Gamma Ind 239 LTDA,Governo,SP,Rio Grande do Sul,Parceiro,2019-06-29,Ativo
+CLI-00240,Alpha Tech 240 LTDA,Pequeno Empresa,CE,Bahia,Licitacao,2021-11-03,Ativo
+CLI-00241,Delta Tech 241 LTDA,Pequeno Empresa,PR,Sao Paulo,E-commerce,2022-01-24,Ativo
+CLI-00242,Zeta Srv 242 LTDA,Governo,AM,Pernambuco,Licitacao,2022-10-20,Ativo
+CLI-00243,Sigma Corp 243 LTDA,Governo,SC,Parana,E-commerce,2019-12-05,Inativo
+CLI-00244,Beta Srv 244 LTDA,Educacao,MG,Ceara,E-commerce,2022-08-08,Ativo
+CLI-00245,Beta Tech 245 LTDA,Pequeno Empresa,RS,Pernambuco,Licitacao,2020-11-13,Inativo
+CLI-00246,Zeta Srv 246 LTDA,Corporativo Grande,AM,Santa Catarina,Licitacao,2022-01-29,Ativo
+CLI-00247,Beta Corp 247 LTDA,Governo,SC,Ceara,Parceiro,2019-05-08,Ativo
+CLI-00248,Vertex Corp 248 LTDA,Governo,SP,Minas Gerais,Direto,2021-08-24,Ativo
+CLI-00249,Zeta Srv 249 LTDA,Educacao,SP,Goias,Parceiro,2024-01-17,Ativo
+CLI-00250,Zeta Srv 250 LTDA,Corporativo Grande,GO,Minas Gerais,E-commerce,2023-06-19,Ativo
+CLI-00251,Epsilon Log 251 LTDA,Corporativo Grande,SP,Amazonas,Parceiro,2024-08-06,Bloqueado
+CLI-00252,Omega Com 252 LTDA,Corporativo Grande,RS,Parana,E-commerce,2024-01-02,Ativo
+CLI-00253,Vertex Tech 253 LTDA,Governo,PR,Rio de Janeiro,Parceiro,2019-10-31,Inativo
+CLI-00254,Gamma Corp 254 LTDA,Governo,RJ,Parana,E-commerce,2022-11-24,Ativo
+CLI-00255,Aurora Com 255 LTDA,Pequeno Empresa,RS,Minas Gerais,Parceiro,2023-01-20,Bloqueado
+CLI-00256,Delta Ind 256 LTDA,Corporativo Medio,PR,Minas Gerais,Parceiro,2024-07-16,Ativo
+CLI-00257,Zeta Com 257 LTDA,Educacao,SC,Pernambuco,Parceiro,2019-12-20,Ativo
+CLI-00258,Epsilon Srv 258 LTDA,Governo,CE,Bahia,Licitacao,2025-06-12,Ativo
+CLI-00259,Gamma Tech 259 LTDA,Corporativo Grande,PE,Pernambuco,E-commerce,2020-06-09,Bloqueado
+CLI-00260,Vertex Log 260 LTDA,Corporativo Medio,BA,Ceara,Direto,2020-05-23,Bloqueado
+CLI-00261,Gamma Tech 261 LTDA,Corporativo Medio,MG,Santa Catarina,Parceiro,2022-11-18,Bloqueado
+CLI-00262,Epsilon Group 262 LTDA,Corporativo Grande,RS,Parana,E-commerce,2020-05-27,Ativo
+CLI-00263,Vertex Com 263 LTDA,Corporativo Grande,CE,Distrito Federal,Parceiro,2025-08-21,Bloqueado
+CLI-00264,Gamma Log 264 LTDA,Educacao,AM,Goias,E-commerce,2025-04-27,Ativo
+CLI-00265,Alpha Ind 265 LTDA,Corporativo Grande,DF,Parana,E-commerce,2021-05-13,Bloqueado
+CLI-00266,Omega Com 266 LTDA,Corporativo Grande,PE,Distrito Federal,E-commerce,2022-05-22,Inativo
+CLI-00267,Delta Group 267 LTDA,Governo,RS,Pernambuco,Direto,2019-09-03,Ativo
+CLI-00268,Sigma Srv 268 LTDA,Governo,PE,Parana,E-commerce,2025-10-20,Ativo
+CLI-00269,Zeta Group 269 LTDA,Pequeno Empresa,AM,Santa Catarina,Licitacao,2020-06-19,Ativo
+CLI-00270,Aurora Com 270 LTDA,Corporativo Grande,SC,Parana,Licitacao,2020-05-16,Ativo
+CLI-00271,Sigma Log 271 LTDA,Corporativo Medio,RJ,Sao Paulo,E-commerce,2023-04-23,Bloqueado
+CLI-00272,Omega Log 272 LTDA,Corporativo Medio,SC,Goias,E-commerce,2021-02-16,Ativo
+CLI-00273,Sigma Com 273 LTDA,Governo,PE,Rio Grande do Sul,Licitacao,2019-04-05,Ativo
+CLI-00274,Omega Com 274 LTDA,Governo,PR,Parana,E-commerce,2019-07-19,Ativo
+CLI-00275,Epsilon Srv 275 LTDA,Educacao,DF,Distrito Federal,Licitacao,2022-03-16,Bloqueado
+CLI-00276,Alpha Group 276 LTDA,Corporativo Grande,BA,Minas Gerais,E-commerce,2023-02-07,Inativo
+CLI-00277,Zeta Ind 277 LTDA,Governo,SP,Goias,Parceiro,2023-01-24,Bloqueado
+CLI-00278,Epsilon Ind 278 LTDA,Governo,CE,Pernambuco,E-commerce,2020-05-01,Ativo
+CLI-00279,Beta Srv 279 LTDA,Pequeno Empresa,PR,Santa Catarina,E-commerce,2020-08-13,Ativo
+CLI-00280,Vertex Com 280 LTDA,Governo,CE,Sao Paulo,Direto,2019-06-09,Ativo
+CLI-00281,Zeta Group 281 LTDA,Governo,CE,Pernambuco,Parceiro,2025-10-19,Bloqueado
+CLI-00282,Gamma Tech 282 LTDA,Educacao,SC,Minas Gerais,Licitacao,2022-05-10,Bloqueado
+CLI-00283,Zeta Com 283 LTDA,Educacao,CE,Pernambuco,E-commerce,2024-04-29,Ativo
+CLI-00284,Zeta Tech 284 LTDA,Corporativo Grande,BA,Goias,E-commerce,2019-04-20,Bloqueado
+CLI-00285,Sigma Tech 285 LTDA,Educacao,GO,Parana,Direto,2025-07-18,Inativo
+CLI-00286,Gamma Com 286 LTDA,Educacao,PR,Bahia,Parceiro,2021-09-19,Ativo
+CLI-00287,Vertex Corp 287 LTDA,Corporativo Grande,PR,Sao Paulo,Licitacao,2022-07-08,Inativo
+CLI-00288,Gamma Srv 288 LTDA,Corporativo Medio,BA,Ceara,Licitacao,2019-09-13,Ativo
+CLI-00289,Aurora Log 289 LTDA,Educacao,SC,Distrito Federal,Licitacao,2024-11-22,Inativo
+CLI-00290,Zeta Log 290 LTDA,Governo,CE,Santa Catarina,E-commerce,2021-12-18,Bloqueado
+CLI-00291,Sigma Log 291 LTDA,Corporativo Medio,RS,Ceara,E-commerce,2021-07-10,Ativo
+CLI-00292,Epsilon Corp 292 LTDA,Corporativo Medio,AM,Amazonas,Licitacao,2022-07-22,Inativo
+CLI-00293,Zeta Com 293 LTDA,Pequeno Empresa,RS,Rio de Janeiro,Licitacao,2023-06-05,Ativo
+CLI-00294,Gamma Tech 294 LTDA,Corporativo Grande,RS,Amazonas,Direto,2022-11-19,Inativo
+CLI-00295,Epsilon Corp 295 LTDA,Governo,PR,Parana,E-commerce,2025-04-21,Ativo
+CLI-00296,Gamma Ind 296 LTDA,Educacao,AM,Goias,Parceiro,2021-09-20,Ativo
+CLI-00297,Aurora Log 297 LTDA,Corporativo Medio,SP,Rio de Janeiro,Licitacao,2022-09-14,Inativo
+CLI-00298,Beta Corp 298 LTDA,Corporativo Medio,SP,Ceara,Parceiro,2023-07-25,Inativo
+CLI-00299,Sigma Corp 299 LTDA,Corporativo Medio,PR,Rio Grande do Sul,E-commerce,2022-03-15,Ativo
+CLI-00300,Beta Corp 300 LTDA,Educacao,PR,Ceara,Direto,2020-12-18,Inativo
+CLI-00301,Gamma Ind 301 LTDA,Governo,PR,Pernambuco,Parceiro,2022-03-31,Ativo
+CLI-00302,Alpha Tech 302 LTDA,Educacao,GO,Rio de Janeiro,E-commerce,2022-03-11,Inativo
+CLI-00303,Aurora Com 303 LTDA,Governo,MG,Ceara,Licitacao,2022-01-22,Ativo
+CLI-00304,Beta Tech 304 LTDA,Corporativo Medio,AM,Pernambuco,E-commerce,2021-02-01,Ativo
+CLI-00305,Zeta Group 305 LTDA,Pequeno Empresa,GO,Distrito Federal,Parceiro,2020-12-19,Bloqueado
+CLI-00306,Omega Group 306 LTDA,Governo,CE,Santa Catarina,Direto,2023-06-30,Ativo
+CLI-00307,Gamma Log 307 LTDA,Governo,SC,Parana,Direto,2021-12-04,Inativo
+CLI-00308,Delta Srv 308 LTDA,Pequeno Empresa,SC,Rio Grande do Sul,Direto,2021-12-07,Ativo
+CLI-00309,Delta Ind 309 LTDA,Corporativo Grande,PE,Rio Grande do Sul,Parceiro,2023-07-19,Bloqueado
+CLI-00310,Epsilon Corp 310 LTDA,Corporativo Grande,DF,Rio Grande do Sul,E-commerce,2021-06-23,Ativo
+CLI-00311,Gamma Srv 311 LTDA,Corporativo Medio,PE,Amazonas,E-commerce,2023-08-31,Bloqueado
+CLI-00312,Sigma Group 312 LTDA,Educacao,PR,Distrito Federal,Parceiro,2021-10-10,Bloqueado
+CLI-00313,Beta Com 313 LTDA,Governo,CE,Amazonas,E-commerce,2019-11-16,Bloqueado
+CLI-00314,Beta Ind 314 LTDA,Educacao,CE,Parana,Parceiro,2020-11-04,Ativo
+CLI-00315,Aurora Srv 315 LTDA,Corporativo Grande,DF,Parana,Licitacao,2020-01-08,Bloqueado
+CLI-00316,Sigma Group 316 LTDA,Corporativo Grande,PE,Minas Gerais,Licitacao,2024-02-15,Bloqueado
+CLI-00317,Alpha Com 317 LTDA,Governo,DF,Parana,E-commerce,2019-03-31,Inativo
+CLI-00318,Epsilon Group 318 LTDA,Corporativo Grande,AM,Parana,Direto,2019-07-05,Inativo
+CLI-00319,Zeta Corp 319 LTDA,Corporativo Grande,CE,Sao Paulo,Direto,2024-04-17,Ativo
+CLI-00320,Epsilon Srv 320 LTDA,Corporativo Medio,PR,Minas Gerais,Licitacao,2023-03-14,Inativo
+CLI-00321,Sigma Group 321 LTDA,Governo,BA,Rio de Janeiro,Parceiro,2022-11-25,Ativo
+CLI-00322,Gamma Com 322 LTDA,Governo,CE,Minas Gerais,Parceiro,2019-01-15,Ativo
+CLI-00323,Epsilon Srv 323 LTDA,Educacao,BA,Ceara,Licitacao,2021-07-29,Ativo
+CLI-00324,Sigma Tech 324 LTDA,Corporativo Medio,RS,Parana,Direto,2019-05-12,Inativo
+CLI-00325,Vertex Group 325 LTDA,Corporativo Grande,PR,Parana,Direto,2020-02-18,Bloqueado
+CLI-00326,Alpha Srv 326 LTDA,Educacao,DF,Amazonas,Direto,2021-09-29,Ativo
+CLI-00327,Omega Srv 327 LTDA,Corporativo Medio,CE,Parana,Direto,2020-07-27,Bloqueado
+CLI-00328,Epsilon Log 328 LTDA,Educacao,SC,Goias,E-commerce,2021-08-28,Ativo
+CLI-00329,Gamma Corp 329 LTDA,Educacao,PR,Bahia,E-commerce,2022-02-01,Ativo
+CLI-00330,Aurora Com 330 LTDA,Corporativo Medio,DF,Distrito Federal,Licitacao,2025-03-26,Inativo
+CLI-00331,Alpha Tech 331 LTDA,Governo,PR,Ceara,E-commerce,2023-09-02,Inativo
+CLI-00332,Gamma Tech 332 LTDA,Governo,MG,Parana,Licitacao,2021-09-14,Ativo
+CLI-00333,Epsilon Group 333 LTDA,Corporativo Medio,PR,Pernambuco,Direto,2025-04-22,Inativo
+CLI-00334,Omega Com 334 LTDA,Educacao,MG,Bahia,Parceiro,2021-11-10,Ativo
+CLI-00335,Zeta Corp 335 LTDA,Corporativo Grande,PE,Santa Catarina,Direto,2025-01-02,Ativo
+CLI-00336,Alpha Tech 336 LTDA,Governo,DF,Goias,Direto,2019-10-26,Ativo
+CLI-00337,Vertex Corp 337 LTDA,Educacao,PR,Pernambuco,Parceiro,2022-09-25,Ativo
+CLI-00338,Alpha Log 338 LTDA,Corporativo Medio,AM,Rio de Janeiro,Licitacao,2021-09-20,Bloqueado
+CLI-00339,Delta Srv 339 LTDA,Corporativo Medio,CE,Santa Catarina,E-commerce,2023-04-09,Inativo
+CLI-00340,Aurora Corp 340 LTDA,Pequeno Empresa,RS,Rio Grande do Sul,E-commerce,2024-10-01,Inativo
+CLI-00341,Sigma Ind 341 LTDA,Governo,PR,Santa Catarina,Parceiro,2023-02-27,Ativo
+CLI-00342,Omega Ind 342 LTDA,Educacao,PR,Amazonas,Parceiro,2019-03-08,Ativo
+CLI-00343,Aurora Com 343 LTDA,Educacao,AM,Bahia,E-commerce,2020-09-16,Ativo
+CLI-00344,Zeta Log 344 LTDA,Governo,GO,Parana,Licitacao,2025-03-05,Ativo
+CLI-00345,Epsilon Group 345 LTDA,Governo,AM,Distrito Federal,Licitacao,2024-03-02,Ativo
+CLI-00346,Zeta Log 346 LTDA,Corporativo Medio,AM,Ceara,Licitacao,2021-01-23,Bloqueado
+CLI-00347,Alpha Com 347 LTDA,Corporativo Grande,RJ,Distrito Federal,Direto,2019-01-27,Inativo
+CLI-00348,Gamma Group 348 LTDA,Corporativo Medio,RJ,Amazonas,Parceiro,2019-02-07,Ativo
+CLI-00349,Aurora Srv 349 LTDA,Pequeno Empresa,SP,Goias,Licitacao,2024-06-21,Ativo
+CLI-00350,Alpha Com 350 LTDA,Educacao,BA,Sao Paulo,Direto,2024-12-08,Ativo
+CLI-00351,Aurora Tech 351 LTDA,Corporativo Grande,CE,Amazonas,Licitacao,2021-01-04,Ativo
+CLI-00352,Beta Com 352 LTDA,Corporativo Medio,PR,Parana,E-commerce,2022-12-22,Ativo
+CLI-00353,Omega Ind 353 LTDA,Pequeno Empresa,BA,Pernambuco,Parceiro,2021-07-14,Ativo
+CLI-00354,Beta Corp 354 LTDA,Corporativo Grande,RJ,Bahia,Licitacao,2023-03-25,Bloqueado
+CLI-00355,Sigma Ind 355 LTDA,Corporativo Grande,AM,Minas Gerais,Direto,2024-08-09,Inativo
+CLI-00356,Zeta Com 356 LTDA,Corporativo Grande,CE,Sao Paulo,Parceiro,2021-05-15,Bloqueado
+CLI-00357,Sigma Tech 357 LTDA,Corporativo Grande,RJ,Distrito Federal,E-commerce,2025-02-02,Bloqueado
+CLI-00358,Alpha Log 358 LTDA,Pequeno Empresa,SP,Parana,Parceiro,2023-06-20,Ativo
+CLI-00359,Epsilon Log 359 LTDA,Educacao,PR,Goias,Licitacao,2025-01-23,Ativo
+CLI-00360,Omega Group 360 LTDA,Corporativo Medio,PR,Amazonas,Direto,2024-08-13,Ativo
+CLI-00361,Alpha Ind 361 LTDA,Governo,PR,Rio de Janeiro,E-commerce,2025-10-14,Bloqueado
+CLI-00362,Vertex Srv 362 LTDA,Pequeno Empresa,SP,Distrito Federal,E-commerce,2024-01-20,Inativo
+CLI-00363,Delta Tech 363 LTDA,Educacao,BA,Bahia,Parceiro,2025-07-27,Inativo
+CLI-00364,Beta Group 364 LTDA,Educacao,RS,Parana,Parceiro,2019-10-29,Ativo
+CLI-00365,Epsilon Log 365 LTDA,Governo,AM,Parana,Parceiro,2023-05-15,Ativo
+CLI-00366,Zeta Ind 366 LTDA,Corporativo Grande,SP,Rio Grande do Sul,Licitacao,2023-01-14,Ativo
+CLI-00367,Beta Log 367 LTDA,Corporativo Grande,MG,Bahia,Licitacao,2025-03-31,Bloqueado
+CLI-00368,Aurora Srv 368 LTDA,Corporativo Grande,SP,Rio de Janeiro,E-commerce,2025-03-20,Ativo
+CLI-00369,Vertex Com 369 LTDA,Pequeno Empresa,BA,Sao Paulo,E-commerce,2023-08-22,Inativo
+CLI-00370,Beta Corp 370 LTDA,Educacao,PR,Goias,Parceiro,2023-04-09,Ativo
+CLI-00371,Gamma Tech 371 LTDA,Pequeno Empresa,RS,Pernambuco,Parceiro,2019-09-17,Ativo
+CLI-00372,Omega Tech 372 LTDA,Governo,RS,Pernambuco,Direto,2023-01-19,Ativo
+CLI-00373,Delta Corp 373 LTDA,Governo,GO,Goias,Parceiro,2024-02-19,Ativo
+CLI-00374,Gamma Tech 374 LTDA,Corporativo Grande,BA,Santa Catarina,Licitacao,2022-09-11,Inativo
+CLI-00375,Zeta Srv 375 LTDA,Educacao,MG,Rio Grande do Sul,E-commerce,2025-10-06,Ativo
+CLI-00376,Sigma Tech 376 LTDA,Corporativo Medio,BA,Santa Catarina,E-commerce,2024-07-04,Bloqueado
+CLI-00377,Delta Tech 377 LTDA,Governo,RS,Parana,Licitacao,2023-02-04,Ativo
+CLI-00378,Vertex Log 378 LTDA,Educacao,CE,Minas Gerais,Direto,2024-03-05,Ativo
+CLI-00379,Sigma Group 379 LTDA,Pequeno Empresa,AM,Rio de Janeiro,Licitacao,2024-08-07,Ativo
+CLI-00380,Epsilon Log 380 LTDA,Pequeno Empresa,DF,Minas Gerais,Licitacao,2023-03-25,Ativo
+CLI-00381,Sigma Com 381 LTDA,Governo,GO,Bahia,Licitacao,2025-02-04,Ativo
+CLI-00382,Zeta Corp 382 LTDA,Educacao,GO,Distrito Federal,Direto,2020-03-23,Ativo
+CLI-00383,Zeta Log 383 LTDA,Educacao,SP,Goias,Licitacao,2022-09-20,Inativo
+CLI-00384,Beta Ind 384 LTDA,Corporativo Grande,RS,Parana,Parceiro,2023-12-31,Ativo
+CLI-00385,Omega Srv 385 LTDA,Educacao,AM,Ceara,Parceiro,2022-11-13,Ativo
+CLI-00386,Sigma Ind 386 LTDA,Pequeno Empresa,BA,Rio de Janeiro,Direto,2020-08-03,Ativo
+CLI-00387,Epsilon Tech 387 LTDA,Governo,PR,Parana,Licitacao,2022-11-27,Inativo
+CLI-00388,Beta Srv 388 LTDA,Governo,SC,Rio de Janeiro,E-commerce,2019-07-03,Ativo
+CLI-00389,Alpha Group 389 LTDA,Pequeno Empresa,DF,Rio de Janeiro,Parceiro,2021-09-26,Bloqueado
+CLI-00390,Gamma Com 390 LTDA,Corporativo Medio,SC,Ceara,Licitacao,2024-03-07,Ativo
+CLI-00391,Omega Corp 391 LTDA,Corporativo Medio,MG,Distrito Federal,Licitacao,2023-06-09,Ativo
+CLI-00392,Vertex Log 392 LTDA,Governo,GO,Bahia,Licitacao,2019-01-19,Ativo
+CLI-00393,Delta Tech 393 LTDA,Corporativo Grande,GO,Rio de Janeiro,Parceiro,2023-02-07,Ativo
+CLI-00394,Delta Srv 394 LTDA,Corporativo Grande,RS,Distrito Federal,Licitacao,2024-12-01,Ativo
+CLI-00395,Vertex Srv 395 LTDA,Educacao,BA,Goias,Direto,2022-11-26,Ativo
+CLI-00396,Sigma Com 396 LTDA,Corporativo Medio,DF,Amazonas,E-commerce,2025-08-14,Ativo
+CLI-00397,Gamma Tech 397 LTDA,Corporativo Grande,PR,Rio Grande do Sul,Direto,2021-01-19,Ativo
+CLI-00398,Gamma Com 398 LTDA,Governo,BA,Goias,Parceiro,2025-06-12,Inativo
+CLI-00399,Omega Log 399 LTDA,Governo,DF,Ceara,Parceiro,2025-03-22,Ativo
+CLI-00400,Sigma Tech 400 LTDA,Corporativo Medio,MG,Santa Catarina,Licitacao,2019-08-08,Ativo
+CLI-00401,Alpha Srv 401 LTDA,Corporativo Medio,PR,Bahia,Licitacao,2023-08-03,Inativo
+CLI-00402,Omega Corp 402 LTDA,Governo,PE,Minas Gerais,Direto,2025-05-04,Ativo
+CLI-00403,Delta Tech 403 LTDA,Corporativo Grande,RS,Parana,E-commerce,2020-11-19,Inativo
+CLI-00404,Vertex Corp 404 LTDA,Governo,CE,Ceara,Direto,2025-06-03,Ativo
+CLI-00405,Epsilon Group 405 LTDA,Educacao,SC,Ceara,Direto,2023-12-13,Bloqueado
+CLI-00406,Delta Srv 406 LTDA,Corporativo Grande,AM,Distrito Federal,Parceiro,2022-05-04,Ativo
+CLI-00407,Sigma Tech 407 LTDA,Pequeno Empresa,RJ,Pernambuco,Direto,2021-08-28,Ativo
+CLI-00408,Vertex Corp 408 LTDA,Pequeno Empresa,AM,Goias,Licitacao,2020-11-10,Bloqueado
+CLI-00409,Gamma Group 409 LTDA,Corporativo Medio,PR,Parana,Direto,2025-05-24,Ativo
+CLI-00410,Aurora Tech 410 LTDA,Educacao,CE,Minas Gerais,E-commerce,2022-04-13,Ativo
+CLI-00411,Vertex Tech 411 LTDA,Educacao,DF,Rio de Janeiro,Parceiro,2023-08-13,Ativo
+CLI-00412,Epsilon Group 412 LTDA,Corporativo Medio,AM,Minas Gerais,Parceiro,2020-08-22,Ativo
+CLI-00413,Delta Group 413 LTDA,Governo,PE,Minas Gerais,E-commerce,2023-08-24,Inativo
+CLI-00414,Sigma Ind 414 LTDA,Corporativo Grande,BA,Ceara,E-commerce,2023-02-20,Inativo
+CLI-00415,Sigma Tech 415 LTDA,Educacao,SP,Parana,Direto,2024-02-21,Ativo
+CLI-00416,Beta Group 416 LTDA,Educacao,BA,Parana,Licitacao,2021-05-17,Inativo
+CLI-00417,Epsilon Tech 417 LTDA,Pequeno Empresa,SC,Ceara,Parceiro,2025-05-07,Inativo
+CLI-00418,Zeta Corp 418 LTDA,Corporativo Grande,SP,Rio de Janeiro,Licitacao,2019-03-08,Ativo
+CLI-00419,Gamma Srv 419 LTDA,Governo,SP,Bahia,Parceiro,2020-06-24,Ativo
+CLI-00420,Gamma Group 420 LTDA,Pequeno Empresa,RJ,Distrito Federal,E-commerce,2021-10-22,Ativo
+CLI-00421,Zeta Corp 421 LTDA,Corporativo Medio,SP,Bahia,E-commerce,2021-08-17,Inativo
+CLI-00422,Beta Corp 422 LTDA,Corporativo Grande,SP,Parana,Licitacao,2019-11-16,Ativo
+CLI-00423,Vertex Log 423 LTDA,Educacao,DF,Pernambuco,Direto,2019-02-03,Ativo
+CLI-00424,Beta Group 424 LTDA,Governo,AM,Minas Gerais,Licitacao,2019-10-18,Ativo
+CLI-00425,Omega Ind 425 LTDA,Corporativo Grande,RJ,Santa Catarina,E-commerce,2022-05-10,Ativo
+CLI-00426,Omega Group 426 LTDA,Corporativo Medio,DF,Distrito Federal,Parceiro,2019-10-08,Bloqueado
+CLI-00427,Vertex Ind 427 LTDA,Educacao,DF,Minas Gerais,Licitacao,2022-12-09,Ativo
+CLI-00428,Gamma Srv 428 LTDA,Educacao,DF,Pernambuco,Parceiro,2019-12-22,Ativo
+CLI-00429,Gamma Group 429 LTDA,Corporativo Grande,GO,Amazonas,Licitacao,2022-12-10,Inativo
+CLI-00430,Zeta Group 430 LTDA,Corporativo Medio,PR,Rio Grande do Sul,Direto,2021-10-13,Bloqueado
+CLI-00431,Vertex Com 431 LTDA,Educacao,RS,Parana,Direto,2022-05-20,Ativo
+CLI-00432,Aurora Com 432 LTDA,Educacao,PR,Amazonas,Licitacao,2022-04-25,Ativo
+CLI-00433,Delta Srv 433 LTDA,Governo,RJ,Parana,Licitacao,2025-08-29,Ativo
+CLI-00434,Aurora Ind 434 LTDA,Pequeno Empresa,SC,Minas Gerais,Licitacao,2025-05-17,Inativo
+CLI-00435,Zeta Com 435 LTDA,Corporativo Medio,PR,Pernambuco,Direto,2019-03-10,Bloqueado
+CLI-00436,Beta Ind 436 LTDA,Pequeno Empresa,PR,Sao Paulo,Direto,2023-06-19,Bloqueado
+CLI-00437,Epsilon Corp 437 LTDA,Educacao,PR,Bahia,Licitacao,2023-07-06,Ativo
+CLI-00438,Aurora Com 438 LTDA,Educacao,MG,Rio Grande do Sul,Direto,2022-06-23,Ativo
+CLI-00439,Aurora Log 439 LTDA,Corporativo Medio,CE,Santa Catarina,Licitacao,2025-07-30,Ativo
+CLI-00440,Epsilon Corp 440 LTDA,Governo,AM,Parana,Direto,2021-09-28,Ativo
+CLI-00441,Omega Ind 441 LTDA,Governo,GO,Goias,Direto,2022-06-20,Ativo
+CLI-00442,Beta Ind 442 LTDA,Corporativo Medio,AM,Sao Paulo,Parceiro,2024-07-26,Ativo
+CLI-00443,Aurora Com 443 LTDA,Pequeno Empresa,MG,Santa Catarina,Parceiro,2022-01-05,Ativo
+CLI-00444,Alpha Tech 444 LTDA,Governo,RS,Ceara,Direto,2021-12-13,Bloqueado
+CLI-00445,Beta Srv 445 LTDA,Governo,CE,Santa Catarina,Direto,2024-08-08,Bloqueado
+CLI-00446,Gamma Tech 446 LTDA,Corporativo Medio,RS,Parana,Direto,2025-06-08,Ativo
+CLI-00447,Delta Corp 447 LTDA,Educacao,SP,Sao Paulo,Direto,2021-09-28,Ativo
+CLI-00448,Sigma Tech 448 LTDA,Governo,MG,Minas Gerais,Direto,2025-03-14,Inativo
+CLI-00449,Delta Tech 449 LTDA,Corporativo Medio,BA,Amazonas,E-commerce,2022-01-16,Ativo
+CLI-00450,Vertex Tech 450 LTDA,Corporativo Grande,CE,Distrito Federal,Direto,2021-01-04,Ativo
+CLI-00451,Aurora Ind 451 LTDA,Governo,RJ,Pernambuco,E-commerce,2022-06-26,Ativo
+CLI-00452,Beta Com 452 LTDA,Governo,SP,Santa Catarina,Parceiro,2022-04-09,Bloqueado
+CLI-00453,Epsilon Corp 453 LTDA,Educacao,PR,Pernambuco,E-commerce,2025-08-20,Inativo
+CLI-00454,Delta Corp 454 LTDA,Educacao,PR,Parana,Parceiro,2020-09-08,Ativo
+CLI-00455,Omega Ind 455 LTDA,Corporativo Medio,CE,Santa Catarina,Direto,2022-10-04,Ativo
+CLI-00456,Omega Group 456 LTDA,Pequeno Empresa,RJ,Parana,Parceiro,2023-09-16,Inativo
+CLI-00457,Alpha Log 457 LTDA,Pequeno Empresa,RJ,Sao Paulo,Parceiro,2024-10-29,Inativo
+CLI-00458,Zeta Srv 458 LTDA,Corporativo Grande,GO,Rio de Janeiro,Parceiro,2023-06-04,Ativo
+CLI-00459,Vertex Com 459 LTDA,Corporativo Grande,BA,Distrito Federal,Parceiro,2021-08-27,Ativo
+CLI-00460,Epsilon Group 460 LTDA,Pequeno Empresa,PR,Bahia,E-commerce,2022-07-26,Inativo
+CLI-00461,Epsilon Log 461 LTDA,Corporativo Grande,PR,Minas Gerais,Direto,2020-09-28,Ativo
+CLI-00462,Gamma Srv 462 LTDA,Governo,SC,Bahia,Direto,2025-01-04,Ativo
+CLI-00463,Delta Srv 463 LTDA,Pequeno Empresa,PE,Rio Grande do Sul,Direto,2020-01-06,Ativo
+CLI-00464,Epsilon Group 464 LTDA,Educacao,SP,Parana,E-commerce,2020-08-30,Ativo
+CLI-00465,Delta Tech 465 LTDA,Governo,CE,Sao Paulo,E-commerce,2021-12-01,Ativo
+CLI-00466,Alpha Srv 466 LTDA,Governo,CE,Amazonas,Parceiro,2020-01-23,Inativo
+CLI-00467,Beta Group 467 LTDA,Corporativo Medio,RJ,Sao Paulo,Direto,2021-06-29,Ativo
+CLI-00468,Delta Group 468 LTDA,Governo,SC,Distrito Federal,Direto,2025-07-13,Bloqueado
+CLI-00469,Epsilon Group 469 LTDA,Corporativo Grande,SP,Rio de Janeiro,Parceiro,2023-12-22,Ativo
+CLI-00470,Beta Group 470 LTDA,Pequeno Empresa,RJ,Sao Paulo,Licitacao,2019-07-27,Ativo
+CLI-00471,Vertex Srv 471 LTDA,Governo,PE,Sao Paulo,Licitacao,2023-10-14,Ativo
+CLI-00472,Zeta Log 472 LTDA,Corporativo Medio,RS,Rio Grande do Sul,Licitacao,2020-08-31,Ativo
+CLI-00473,Vertex Com 473 LTDA,Educacao,PR,Distrito Federal,E-commerce,2024-08-05,Inativo
+CLI-00474,Aurora Srv 474 LTDA,Corporativo Grande,RJ,Rio Grande do Sul,Licitacao,2020-07-16,Inativo
+CLI-00475,Delta Corp 475 LTDA,Educacao,PR,Distrito Federal,Direto,2023-04-16,Ativo
+CLI-00476,Sigma Com 476 LTDA,Governo,SC,Goias,E-commerce,2023-05-10,Ativo
+CLI-00477,Gamma Ind 477 LTDA,Pequeno Empresa,GO,Parana,Direto,2022-02-24,Ativo
+CLI-00478,Sigma Com 478 LTDA,Pequeno Empresa,PR,Goias,Parceiro,2020-10-15,Ativo
+CLI-00479,Delta Corp 479 LTDA,Corporativo Medio,RS,Ceara,Direto,2021-06-17,Bloqueado
+CLI-00480,Omega Tech 480 LTDA,Corporativo Medio,MG,Parana,E-commerce,2023-01-09,Bloqueado
+CLI-00481,Alpha Corp 481 LTDA,Pequeno Empresa,GO,Goias,Parceiro,2025-04-25,Ativo
+CLI-00482,Sigma Com 482 LTDA,Pequeno Empresa,MG,Pernambuco,Direto,2020-01-05,Ativo
+CLI-00483,Delta Com 483 LTDA,Corporativo Medio,SP,Ceara,Licitacao,2019-01-03,Ativo
+CLI-00484,Vertex Log 484 LTDA,Corporativo Medio,SC,Amazonas,Parceiro,2022-08-18,Ativo
+CLI-00485,Alpha Log 485 LTDA,Educacao,AM,Minas Gerais,Direto,2024-11-25,Ativo
+CLI-00486,Beta Tech 486 LTDA,Governo,GO,Rio de Janeiro,E-commerce,2022-05-21,Ativo
+CLI-00487,Gamma Log 487 LTDA,Governo,PR,Distrito Federal,Licitacao,2022-07-23,Ativo
+CLI-00488,Aurora Corp 488 LTDA,Educacao,PR,Santa Catarina,Parceiro,2025-08-09,Ativo
+CLI-00489,Omega Tech 489 LTDA,Pequeno Empresa,MG,Minas Gerais,Direto,2025-06-04,Inativo
+CLI-00490,Vertex Ind 490 LTDA,Corporativo Medio,GO,Santa Catarina,Parceiro,2025-05-05,Ativo
+CLI-00491,Sigma Log 491 LTDA,Pequeno Empresa,AM,Rio de Janeiro,Parceiro,2022-11-21,Ativo
+CLI-00492,Gamma Corp 492 LTDA,Corporativo Grande,AM,Distrito Federal,E-commerce,2024-01-04,Ativo
+CLI-00493,Epsilon Log 493 LTDA,Corporativo Medio,AM,Rio de Janeiro,E-commerce,2021-11-17,Ativo
+CLI-00494,Alpha Ind 494 LTDA,Governo,PE,Amazonas,Licitacao,2020-11-12,Inativo
+CLI-00495,Sigma Srv 495 LTDA,Pequeno Empresa,CE,Bahia,Direto,2024-05-17,Bloqueado
+CLI-00496,Delta Log 496 LTDA,Governo,RJ,Parana,Direto,2022-04-22,Ativo
+CLI-00497,Zeta Tech 497 LTDA,Corporativo Grande,RJ,Santa Catarina,Parceiro,2023-03-18,Ativo
+CLI-00498,Beta Com 498 LTDA,Corporativo Grande,SC,Goias,Licitacao,2019-05-07,Inativo
+CLI-00499,Gamma Com 499 LTDA,Governo,MG,Sao Paulo,Direto,2022-09-18,Ativo
+CLI-00500,Delta Srv 500 LTDA,Educacao,AM,Amazonas,E-commerce,2022-02-27,Ativo
+CLI-00501,Delta Ind 501 LTDA,Corporativo Grande,BA,Goias,Licitacao,2020-09-21,Ativo
+CLI-00502,Zeta Ind 502 LTDA,Governo,RJ,Rio Grande do Sul,Licitacao,2021-03-28,Ativo
+CLI-00503,Alpha Log 503 LTDA,Corporativo Medio,DF,Rio Grande do Sul,Direto,2024-04-23,Ativo
+CLI-00504,Epsilon Group 504 LTDA,Governo,PE,Pernambuco,E-commerce,2020-01-09,Bloqueado
+CLI-00505,Omega Log 505 LTDA,Pequeno Empresa,BA,Santa Catarina,Parceiro,2023-12-31,Ativo
+CLI-00506,Epsilon Srv 506 LTDA,Governo,RS,Parana,E-commerce,2025-04-30,Ativo
+CLI-00507,Gamma Group 507 LTDA,Corporativo Grande,RJ,Distrito Federal,E-commerce,2025-01-26,Inativo
+CLI-00508,Vertex Log 508 LTDA,Educacao,SP,Bahia,Licitacao,2025-01-02,Inativo
+CLI-00509,Vertex Log 509 LTDA,Governo,RS,Rio de Janeiro,Licitacao,2019-05-23,Bloqueado
+CLI-00510,Vertex Com 510 LTDA,Educacao,DF,Goias,Parceiro,2020-05-07,Inativo
+CLI-00511,Gamma Log 511 LTDA,Corporativo Medio,PR,Parana,Parceiro,2019-06-24,Inativo
+CLI-00512,Beta Corp 512 LTDA,Governo,PR,Distrito Federal,Parceiro,2025-09-03,Ativo
+CLI-00513,Zeta Corp 513 LTDA,Corporativo Grande,RJ,Bahia,Licitacao,2025-03-11,Ativo
+CLI-00514,Epsilon Com 514 LTDA,Governo,SP,Parana,Licitacao,2020-04-05,Inativo
+CLI-00515,Gamma Log 515 LTDA,Educacao,GO,Goias,Direto,2020-03-08,Bloqueado
+CLI-00516,Beta Group 516 LTDA,Pequeno Empresa,CE,Santa Catarina,Licitacao,2021-12-17,Inativo
+CLI-00517,Sigma Com 517 LTDA,Educacao,PE,Sao Paulo,Parceiro,2022-02-02,Inativo
+CLI-00518,Gamma Com 518 LTDA,Educacao,DF,Amazonas,Licitacao,2019-06-08,Inativo
+CLI-00519,Zeta Corp 519 LTDA,Corporativo Medio,SP,Amazonas,Licitacao,2022-01-05,Ativo
+CLI-00520,Alpha Tech 520 LTDA,Pequeno Empresa,RS,Rio Grande do Sul,Licitacao,2020-02-07,Ativo
+CLI-00521,Gamma Tech 521 LTDA,Governo,PR,Santa Catarina,E-commerce,2023-09-04,Bloqueado
+CLI-00522,Beta Log 522 LTDA,Governo,PR,Bahia,Licitacao,2024-10-16,Ativo
+CLI-00523,Alpha Com 523 LTDA,Corporativo Medio,RJ,Rio Grande do Sul,Licitacao,2020-07-09,Bloqueado
+CLI-00524,Vertex Ind 524 LTDA,Corporativo Medio,PR,Parana,Direto,2021-10-18,Ativo
+CLI-00525,Sigma Ind 525 LTDA,Pequeno Empresa,AM,Parana,E-commerce,2023-02-17,Inativo
+CLI-00526,Aurora Srv 526 LTDA,Corporativo Grande,DF,Sao Paulo,Parceiro,2023-03-06,Inativo
+CLI-00527,Vertex Srv 527 LTDA,Corporativo Medio,PE,Goias,E-commerce,2022-11-11,Ativo
+CLI-00528,Epsilon Corp 528 LTDA,Corporativo Grande,RS,Sao Paulo,Licitacao,2019-07-23,Ativo
+CLI-00529,Vertex Group 529 LTDA,Corporativo Medio,PR,Distrito Federal,Parceiro,2021-04-26,Ativo
+CLI-00530,Omega Com 530 LTDA,Corporativo Grande,PR,Parana,Direto,2024-04-25,Ativo
+CLI-00531,Gamma Com 531 LTDA,Corporativo Grande,PR,Rio Grande do Sul,E-commerce,2022-02-01,Inativo
+CLI-00532,Omega Group 532 LTDA,Pequeno Empresa,PE,Rio Grande do Sul,Parceiro,2024-03-26,Ativo
+CLI-00533,Aurora Group 533 LTDA,Educacao,BA,Goias,Direto,2019-01-31,Bloqueado
+CLI-00534,Zeta Com 534 LTDA,Educacao,GO,Rio Grande do Sul,E-commerce,2020-03-18,Inativo
+CLI-00535,Beta Tech 535 LTDA,Pequeno Empresa,DF,Santa Catarina,E-commerce,2021-12-05,Ativo
+CLI-00536,Delta Log 536 LTDA,Educacao,PR,Parana,Direto,2025-09-23,Inativo
+CLI-00537,Zeta Corp 537 LTDA,Corporativo Medio,AM,Sao Paulo,Licitacao,2022-04-25,Ativo
+CLI-00538,Omega Srv 538 LTDA,Governo,AM,Sao Paulo,Parceiro,2022-11-06,Ativo
+CLI-00539,Aurora Corp 539 LTDA,Governo,DF,Santa Catarina,E-commerce,2020-11-27,Bloqueado
+CLI-00540,Gamma Tech 540 LTDA,Corporativo Grande,PE,Minas Gerais,E-commerce,2025-04-08,Ativo
+CLI-00541,Zeta Corp 541 LTDA,Corporativo Grande,PR,Santa Catarina,Parceiro,2022-06-11,Inativo
+CLI-00542,Zeta Tech 542 LTDA,Pequeno Empresa,GO,Rio Grande do Sul,Licitacao,2020-04-27,Inativo
+CLI-00543,Alpha Group 543 LTDA,Educacao,GO,Goias,Direto,2024-04-18,Ativo
+CLI-00544,Aurora Ind 544 LTDA,Governo,CE,Rio Grande do Sul,Licitacao,2019-08-10,Ativo
+CLI-00545,Gamma Log 545 LTDA,Pequeno Empresa,BA,Goias,Licitacao,2020-08-09,Ativo
+CLI-00546,Gamma Group 546 LTDA,Corporativo Grande,PE,Santa Catarina,Parceiro,2022-07-07,Ativo
+CLI-00547,Alpha Srv 547 LTDA,Pequeno Empresa,PR,Parana,Parceiro,2025-06-18,Ativo
+CLI-00548,Sigma Group 548 LTDA,Corporativo Grande,MG,Goias,Licitacao,2023-10-25,Inativo
+CLI-00549,Omega Srv 549 LTDA,Governo,SP,Sao Paulo,Parceiro,2023-03-09,Ativo
+CLI-00550,Zeta Group 550 LTDA,Educacao,PR,Sao Paulo,Direto,2021-10-16,Ativo
+CLI-00551,Zeta Tech 551 LTDA,Corporativo Medio,RJ,Bahia,E-commerce,2020-11-15,Ativo
+CLI-00552,Alpha Tech 552 LTDA,Pequeno Empresa,PE,Amazonas,E-commerce,2023-11-12,Ativo
+CLI-00553,Zeta Srv 553 LTDA,Pequeno Empresa,PR,Parana,Parceiro,2023-07-11,Ativo
+CLI-00554,Delta Log 554 LTDA,Corporativo Medio,PR,Amazonas,Direto,2025-08-12,Bloqueado
+CLI-00555,Gamma Ind 555 LTDA,Pequeno Empresa,AM,Distrito Federal,Direto,2023-03-17,Ativo
+CLI-00556,Aurora Com 556 LTDA,Corporativo Grande,GO,Sao Paulo,Direto,2019-03-22,Ativo
+CLI-00557,Beta Srv 557 LTDA,Governo,BA,Rio de Janeiro,E-commerce,2024-04-27,Ativo
+CLI-00558,Delta Corp 558 LTDA,Corporativo Grande,RS,Bahia,Direto,2024-11-01,Ativo
+CLI-00559,Vertex Com 559 LTDA,Corporativo Medio,BA,Rio de Janeiro,Direto,2022-03-03,Ativo
+CLI-00560,Beta Srv 560 LTDA,Corporativo Medio,GO,Parana,E-commerce,2024-11-12,Ativo
+CLI-00561,Zeta Corp 561 LTDA,Governo,RS,Minas Gerais,Direto,2025-02-23,Inativo
+CLI-00562,Delta Corp 562 LTDA,Governo,SC,Parana,Direto,2019-02-22,Ativo
+CLI-00563,Beta Group 563 LTDA,Educacao,DF,Pernambuco,Parceiro,2020-01-04,Bloqueado
+CLI-00564,Beta Corp 564 LTDA,Corporativo Grande,RS,Distrito Federal,Parceiro,2024-02-14,Ativo
+CLI-00565,Epsilon Srv 565 LTDA,Corporativo Grande,RJ,Minas Gerais,Direto,2022-04-05,Ativo
+CLI-00566,Zeta Srv 566 LTDA,Corporativo Grande,RJ,Parana,Direto,2019-02-09,Ativo
+CLI-00567,Gamma Tech 567 LTDA,Pequeno Empresa,PE,Goias,E-commerce,2020-01-16,Ativo
+CLI-00568,Zeta Log 568 LTDA,Corporativo Grande,BA,Bahia,Licitacao,2022-01-18,Inativo
+CLI-00569,Sigma Group 569 LTDA,Governo,DF,Parana,Parceiro,2020-04-08,Ativo
+CLI-00570,Alpha Group 570 LTDA,Corporativo Medio,RJ,Bahia,Licitacao,2025-05-19,Inativo
+CLI-00571,Gamma Com 571 LTDA,Governo,PR,Santa Catarina,Direto,2020-06-19,Inativo
+CLI-00572,Sigma Ind 572 LTDA,Governo,PE,Sao Paulo,Direto,2021-12-07,Ativo
+CLI-00573,Alpha Corp 573 LTDA,Educacao,PR,Amazonas,Parceiro,2022-10-17,Bloqueado
+CLI-00574,Aurora Corp 574 LTDA,Educacao,RJ,Bahia,Parceiro,2024-05-27,Ativo
+CLI-00575,Omega Log 575 LTDA,Educacao,GO,Sao Paulo,Direto,2020-10-04,Bloqueado
+CLI-00576,Sigma Group 576 LTDA,Governo,MG,Rio de Janeiro,Licitacao,2022-08-06,Ativo
+CLI-00577,Zeta Tech 577 LTDA,Corporativo Grande,CE,Parana,Licitacao,2023-07-10,Ativo
+CLI-00578,Beta Srv 578 LTDA,Governo,PR,Goias,Licitacao,2019-12-27,Inativo
+CLI-00579,Sigma Tech 579 LTDA,Corporativo Grande,PE,Amazonas,Direto,2020-02-25,Inativo
+CLI-00580,Omega Ind 580 LTDA,Educacao,CE,Sao Paulo,Direto,2025-10-10,Bloqueado
+CLI-00581,Epsilon Com 581 LTDA,Educacao,PR,Distrito Federal,Licitacao,2022-10-28,Ativo
+CLI-00582,Alpha Group 582 LTDA,Corporativo Medio,PE,Santa Catarina,Licitacao,2023-01-28,Inativo
+CLI-00583,Beta Ind 583 LTDA,Corporativo Medio,SP,Santa Catarina,E-commerce,2022-04-10,Bloqueado
+CLI-00584,Aurora Tech 584 LTDA,Corporativo Grande,SP,Minas Gerais,Licitacao,2020-07-29,Inativo
+CLI-00585,Beta Tech 585 LTDA,Educacao,PR,Parana,Direto,2023-05-29,Ativo
+CLI-00586,Sigma Group 586 LTDA,Corporativo Medio,AM,Santa Catarina,Direto,2023-08-25,Ativo
+CLI-00587,Vertex Ind 587 LTDA,Governo,PE,Distrito Federal,Parceiro,2024-08-05,Ativo
+CLI-00588,Aurora Corp 588 LTDA,Corporativo Grande,CE,Bahia,Licitacao,2024-09-13,Ativo
+CLI-00589,Vertex Log 589 LTDA,Corporativo Medio,RJ,Bahia,E-commerce,2024-08-26,Inativo
+CLI-00590,Omega Com 590 LTDA,Corporativo Medio,RS,Bahia,E-commerce,2022-04-19,Inativo
+CLI-00591,Gamma Log 591 LTDA,Governo,GO,Amazonas,E-commerce,2025-02-21,Ativo
+CLI-00592,Aurora Corp 592 LTDA,Corporativo Medio,PR,Parana,E-commerce,2022-11-15,Ativo
+CLI-00593,Gamma Com 593 LTDA,Educacao,AM,Distrito Federal,E-commerce,2020-04-17,Ativo
+CLI-00594,Aurora Srv 594 LTDA,Educacao,GO,Distrito Federal,Licitacao,2024-12-26,Ativo
+CLI-00595,Omega Group 595 LTDA,Corporativo Grande,CE,Rio de Janeiro,Direto,2023-04-10,Ativo
+CLI-00596,Alpha Corp 596 LTDA,Corporativo Grande,PR,Rio Grande do Sul,Parceiro,2022-03-19,Ativo
+CLI-00597,Gamma Group 597 LTDA,Corporativo Grande,AM,Parana,E-commerce,2021-04-15,Bloqueado
+CLI-00598,Alpha Tech 598 LTDA,Governo,RJ,Goias,Parceiro,2025-04-17,Inativo
+CLI-00599,Delta Com 599 LTDA,Pequeno Empresa,AM,Distrito Federal,Direto,2023-04-12,Inativo
+CLI-00600,Omega Group 600 LTDA,Pequeno Empresa,CE,Sao Paulo,Direto,2021-10-26,Ativo

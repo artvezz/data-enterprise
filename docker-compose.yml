@@ -1,0 +1,181 @@
+# ============================================================
+# Data Enterprise - stack local completa
+# Postgres (warehouse) + Airflow (orquestracao) + Metabase (BI)
+# ============================================================
+
+name: data-enterprise
+
+x-airflow-common: &airflow-common
+  # imagem custom: apache/airflow + dbt-core/dbt-postgres (para a DAG dbt_warehouse)
+  build: ./docker/airflow
+  image: data-enterprise-airflow:latest
+  env_file: .env
+  environment: &airflow-env
+    AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+    AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__DAG_DISCOVERY_SAFE_MODE: "False"
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER:-dw_admin}:${POSTGRES_PASSWORD:-dw_admin_local}@postgres:5432/${POSTGRES_DB:-enterprise}
+    AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
+    AIRFLOW__API__AUTH_BACKENDS: "airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session"
+    # dbt: logs/target fora de ./dbt (bind mount e root, Airflow e UID 50000)
+    DBT_LOG_PATH: /tmp/dbt-logs
+    DBT_TARGET_PATH: /tmp/dbt-target
+    # webhook opcional p/ alerta de falha da DAG (url do Slack/Gerencia etc.)
+    AIRFLOW_ALERT_WEBHOOK_URL: ${AIRFLOW_ALERT_WEBHOOK_URL:-}
+    TZ: America/Sao_Paulo
+    PYTHONPATH: /opt/airflow/pipelines
+  volumes: &airflow-volumes
+    - ./docker/airflow/dags:/opt/airflow/dags
+    - ./docker/airflow/plugins:/opt/airflow/plugins
+    - ./pipelines:/opt/airflow/pipelines
+    - ./dbt:/opt/dbt
+    - ./data:/opt/data
+    - ./scripts:/opt/scripts
+    - ./scripts:/opt/airflow/scripts
+  user: "${AIRFLOW_UID:-50000}:0"
+  networks: [de-net]
+  depends_on: &airflow-deps
+    postgres:
+      condition: service_healthy
+    dbt-init:
+      condition: service_completed_successfully
+
+services:
+  # ---------------------------------------------------------
+  # WAREHOUSE
+  # ---------------------------------------------------------
+  postgres:
+    image: postgres:16-alpine
+    container_name: de-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-dw_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-dw_admin_local}
+      POSTGRES_DB: ${POSTGRES_DB:-enterprise}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./docker/postgres/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-dw_admin} -d ${POSTGRES_DB:-enterprise}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [de-net]
+
+  # ---------------------------------------------------------
+  # Carga inicial do warehouse (roda uma vez no boot, antes do Airflow)
+  # dbt build contra o Supabase usando a mesma imagem do servico dbt.
+  # ---------------------------------------------------------
+  dbt-init:
+    build: ./dbt
+    image: data-enterprise-dbt:latest
+    container_name: de-dbt-init
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file: .env
+    volumes:
+      - ./dbt:/opt/dbt
+      - ./data:/opt/data
+    working_dir: /opt/dbt
+    entrypoint: ["/bin/sh"]
+    command: ["/opt/dbt/entrypoint-init.sh"]
+    networks: [de-net]
+
+  # ---------------------------------------------------------
+  # dbt contra o Supabase (warehouse em nuvem)
+  # Uso: docker compose run --rm dbt run
+  #      docker compose run --rm dbt test
+  #      docker compose run --rm dbt docs generate
+  # ---------------------------------------------------------
+  dbt:
+    build: ./dbt
+    image: data-enterprise-dbt:latest
+    env_file: .env
+    environment:
+      DBT_PROFILES_DIR: /opt/dbt
+    volumes:
+      - ./dbt:/opt/dbt
+    working_dir: /opt/dbt
+    entrypoint: ["dbt"]
+    command: ["--help"]
+    networks: [de-net]
+
+  # ---------------------------------------------------------
+  # ORCHESTRATOR
+  # ---------------------------------------------------------
+  airflow-init:
+    <<: *airflow-common
+    container_name: de-airflow-init
+    entrypoint: /bin/bash
+    command: -c "airflow db init && airflow users create --username ${AIRFLOW_USER:-admin} --password ${AIRFLOW_PASSWORD:-admin_local} --firstname Data --lastname Eng --role Admin --email admin@empresa.com || true"
+    environment: *airflow-env
+
+  airflow-webserver:
+    <<: *airflow-common
+    container_name: de-airflow-webserver
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: de-airflow-scheduler
+    command: scheduler
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+
+  # ---------------------------------------------------------
+  # BI / SERVING (consumo por time)
+  # ---------------------------------------------------------
+  metabase:
+    image: metabase/metabase:v0.49.6
+    container_name: de-metabase
+    restart: unless-stopped
+    ports:
+      - "${METABASE_PORT:-3000}:3000"
+    environment:
+      MB_DB_TYPE: h2
+      MB_JETTY_PORT: "3000"
+    volumes:
+      - metabase-data:/metabase-data
+    networks: [de-net]
+
+  # ---------------------------------------------------------
+  # ADMIN DB (opcional, para navegar o Postgres no DBeaver)
+  # ---------------------------------------------------------
+  adminer:
+    image: adminer:4
+    container_name: de-adminer
+    restart: unless-stopped
+    ports:
+      - "8081:8080"
+    depends_on:
+      - postgres
+    environment:
+      ADMINER_DEFAULT_SERVER: postgres
+    networks: [de-net]
+
+volumes:
+  pgdata:
+  metabase-data:
+
+networks:
+  de-net:
+    driver: bridge

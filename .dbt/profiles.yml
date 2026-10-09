@@ -1,0 +1,18 @@
+# Profiles do dbt.
+# A senha vem do ambiente (DBT_SUPABASE_PASSWORD) - nunca versionar aqui.
+# Uso local:  $env:DBT_SUPABASE_PASSWORD="..."; dbt debug --profiles-dir .dbt
+# Uso docker: o password vem do .env via docker compose run --rm dbt <comando>
+
+data_enterprise:
+  target: supabase
+  outputs:
+    supabase:
+      type: postgres
+      host: "{{ env_var('DBT_SUPABASE_HOST', 'aws-0-us-west-2.pooler.supabase.com') }}"
+      port: "{{ env_var('DBT_SUPABASE_PORT', '6543') | int }}"
+      user: "{{ env_var('DBT_SUPABASE_USER', 'postgres.qkqwqvwloowvrexuzama') }}"
+      password: "{{ env_var('DBT_SUPABASE_PASSWORD') }}"
+      dbname: "{{ env_var('DBT_SUPABASE_DB', 'postgres') }}"
+      schema: public
+      threads: 4
+      sslmode: require
